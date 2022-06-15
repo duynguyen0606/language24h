@@ -1,0 +1,15 @@
+.item-short-review {
+    padding-top: 15px;
+    display: flex;
+    align-items: baseline;
+
+    img {
+        width: 16px;
+        margin-right: 12px;
+    }
+
+    .price {
+        font-size: 2rem;
+        color: #083F9C;
+    }
+}

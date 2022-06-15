@@ -1,0 +1,65 @@
+.first {
+    height: 35px;
+    background-color: var(--root-color);
+    z-index: 5;
+    position: relative;
+
+    .hotline,
+    .hotline.email {
+        color: var(--root-menu-color);
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .hotline {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .language-selection {
+        display: flex;
+        align-items: center;
+    }
+
+    .user-action,
+    .login {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .login,
+    .register {
+        color: var(--root-menu-color);
+        background-color: transparent;
+        padding: 0 1rem;
+        cursor: pointer;
+    }
+
+    @media (max-width: 850px) {
+        .language-selection {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1100px) {
+        .hotline.email {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .language-selection {
+            span {
+                display: none;
+            }
+        }
+    }
+}
+
+// .header-content-panel {
+//     display: block;
+// }
+

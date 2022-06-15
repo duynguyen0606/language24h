@@ -1,0 +1,138 @@
+.second {
+    height: 70px;
+    background: #fff;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+
+    .img-logo {
+        height: 55px;
+    }
+
+    .search-panel {
+        display: flex;
+        border: 2px solid var(--root-color);
+        margin-right: auto;
+        margin-left: 20px;
+        position: relative;
+        width: 400px;
+    }
+
+    .search-box {
+        padding: 6px 8px;
+        color: #555;
+        width: calc(100% - var(--header-search-button));
+        font-size: 1.4rem;
+        cursor: text;
+    }
+
+    .search-btn {
+        border: none;
+        background: var(--root-color);
+        color: white;
+        width: var(--header-search-button);
+        height: var(--header-search-button);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .menu-panel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        white-space: nowrap;
+    }
+
+    .show-panel-on-mobile {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        background-color: var(--white-color);
+        border-top: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+        z-index: 1;
+
+        .menu-item {
+            font-size: 1.6rem;
+            transition: all 0.25s;
+
+            &:hover {
+                background-color: rgb(247, 243, 243);
+                text-decoration: underline !important;
+            }
+        }
+    }
+
+    .menu-item {
+        padding: 0 15px;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .menu-item a {
+        color: var(--root-color);
+        line-height: 2.4;
+    }
+
+    .icon-fire {
+        width: 20px;
+        height: 25px;
+        position: relative;
+        left: 5px;
+    }
+
+    .menu-item-animation {
+        position: relative;
+        animation-name: animation-fire;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animation-fire {
+        0% {
+            color: var(--root-color);
+        }
+        25% {
+            color: red;
+        }
+        75% {
+            color: orange;
+        }
+    }
+
+    .menu-button {
+        display: none;
+        background-color: transparent;
+        border: 1px solid #ddd;
+        padding: 2px 4px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .menu-button:hover {
+        background-color: #ddd;
+    }
+
+    @media (max-width: 768px) {
+        .menu-button {
+            display: block;
+        }
+
+        .search-panel {
+            width: 300px;
+        }
+
+        .menu-panel {
+            display: none;
+        }
+    }
+}

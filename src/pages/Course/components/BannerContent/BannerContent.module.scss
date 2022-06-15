@@ -1,0 +1,33 @@
+.wrapper {
+    height: 250px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    .name {
+        font-size: 50px;
+        padding-left: 60px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: var(--white-color);
+        z-index: 1;
+    }
+
+}
+
+.path-link {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e5;
+}
+
+// responsive
+
+@media (max-width: 768px) {
+    .wrapper {
+        display: none
+    }
+}

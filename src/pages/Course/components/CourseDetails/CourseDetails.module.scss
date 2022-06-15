@@ -1,0 +1,115 @@
+.line {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.item-panel {
+    display: flex;
+    position: relative;
+
+    .left {
+        position: relative;
+        background-color: var(--white-color);
+        width: 30px;
+        display: flex;
+        align-items: center;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            background: var(--root-color);
+            left: 50%;
+        }
+        .number {
+            background: var(--root-color);
+            color: white;
+            border-top: 1px solid var(--root-color);
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+    }
+
+    .right {
+        flex: 1;
+    }
+
+    .topic-item {
+        padding: 10px;
+        flex: 1;
+    }
+
+    .box-content {
+        box-shadow: 0 0 5px 0 #aaa;
+        border-radius: 10px;
+        flex: 1;
+    }
+
+    .topic-content {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .topic-show-btn {
+       padding-left: 10px;
+       padding-right: 8px;
+       cursor: pointer;
+    }
+
+    .item-name {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .body {
+        font-size: 1.4rem;
+        padding: 10px 0;
+        flex: 1;
+        cursor: pointer;
+
+        &:hover {
+            .name {
+                color: var(--root-color);
+            }
+        }
+
+        .description {
+            font-size: 1.3rem;
+            color: #777;
+        }
+    }
+
+    .progress {
+        width: 50px;
+        text-align: center;
+    }
+
+    .lock-icon {
+        padding: 0 10px;
+    }
+}
+
+// responsive
+@media (max-width: 600px) {
+    .progress {
+        width: 50px !important;
+    }
+
+    .lock-icon {
+        position: absolute !important;
+        right: 5px;
+        bottom: 5px;
+        padding: 0 !important;
+    }
+}

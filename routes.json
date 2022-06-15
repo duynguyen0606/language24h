@@ -1,0 +1,6 @@
+{
+    "/courses-practice-2022/?id=:id": "/courses-practice-2022",
+    "/courses-practice-2023/?id=:id": "/courses-practice-2023",
+    "/course-child-topics/?id=:id": "course-child-topics",
+    "/overview-courses/?id=:id": "overview-courses"
+}

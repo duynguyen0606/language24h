@@ -1,0 +1,51 @@
+.sidebar-title-block {
+    font-weight: 700;
+    position: relative;
+    font-size: 17px;
+    margin-bottom: 12px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.sidebar-title-block::after {
+    background-color: var(--root-color);
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 2px;
+    bottom: -7px;
+    left: 0;
+}
+
+.load-more {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-style: italic;
+    color: #337ab7;
+}
+
+.load-more:hover {
+    text-decoration: underline;
+}
+
+.title-block {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.title-block:before {
+    content: '';
+    width: 2px;
+    background: red;
+    height: 100%;
+    left: -1px;
+    z-index: 2;
+    top: 0;
+    position: absolute;
+}

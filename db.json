@@ -1,0 +1,1349 @@
+{
+    "slides": [
+        {
+            "id": 1,
+            "img": "https://storage.googleapis.com/comaiphuong-edu-media/images/496916927-1645672704992-banner-2022---combo-cap-toc.jpg"
+        },
+        {
+            "id": 2,
+            "img": "https://storage.googleapis.com/comaiphuong-edu-media/images/55317664-1645672743190-banner2022-pro3m-pro3mplusdonecopy.png"
+        },
+        {
+            "id": 3,
+            "img": "https://storage.googleapis.com/comaiphuong-edu-media/images/475370942-1645672778816-banner2022-appcopy.png"
+        },
+        {
+            "id": 4,
+            "img": "https://storage.googleapis.com/comaiphuong-edu-media/images/94881178-1645672795196-banner2022-tienganhvaolop10copy.png"
+        },
+        {
+            "id": 5,
+            "img": "https://storage.googleapis.com/comaiphuong-edu-media/images/411169410-1645672819282-banner2022-toeiccopy.png"
+        },
+        {
+            "id": 6,
+            "img": "https://storage.googleapis.com/comaiphuong-edu-media/images/528919201-1645672840419-banner2022-ieltscopy.png"
+        }
+    ],
+    "score-slides": [
+        {
+            "id": 1,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/01.png"
+        },
+        {
+            "id": 2,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/02.png"
+        },
+        {
+            "id": 3,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/03.png"
+        },
+        {
+            "id": 4,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/04.png"
+        },
+        {
+            "id": 5,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/05.png"
+        },
+        {
+            "id": 6,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/06.png"
+        },
+        {
+            "id": 7,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/07.png"
+        },
+        {
+            "id": 8,
+            "img": "https://storage.googleapis.com/comaiphuong-edu.appspot.com/banner/08.png"
+        }
+    ],
+    "online-utilties": [
+        {
+            "id": 1,
+            "img": "https://ngoaingu24h.vn/resources/images/Icon-NN24H/icon1.png",
+            "description": "Học từ vựng hiệu quả với Flash card độc quyền."
+        },
+        {
+            "id": 2,
+            "img": "https://ngoaingu24h.vn/resources/images/Icon-NN24H/icon2.png",
+            "description": "Luôn được hỗ trợ nhanh nhất bởi đội ngũ chuyên môn giỏi, nhiệt huyết."
+        },
+        {
+            "id": 3,
+            "img": "https://ngoaingu24h.vn/resources/images/Icon-NN24H/icon3.png",
+            "description": "Xem và tương tác với giáo viên qua livestream."
+        },
+        {
+            "id": 4,
+            "img": "https://ngoaingu24h.vn/resources/images/Icon-NN24H/icon4.png",
+            "description": "Nội dung khóa học luôn được cập nhật theo xu hướng ra đề."
+        },
+        {
+            "id": 5,
+            "img": "https://ngoaingu24h.vn/resources/images/Icon-NN24H/icon5.png",
+            "description": "Nhắc nhở lịch học hằng ngày."
+        },
+        {
+            "id": 6,
+            "img": "https://ngoaingu24h.vn/resources/images/Icon-NN24H/icon6.png",
+            "description": "Thống kê chi tiết thời gian, nội dung học."
+        }
+    ],
+    "courses-practice-2022": [
+        {
+            "id": 0,
+            "name": "VIP90 PLUS",
+            "totalRealCost": 2700000,
+            "totalSaleCost": 1100000,
+            "coursesList": [
+                {
+                    "id": 0,
+                    "pathId": 4234214324,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/11513407-1647308889817-khoa_livestream_thptqg_2022.png",
+                        "title": "VIP 90 (2022): ÔN LÀ TRÚNG TỦ",
+                        "description": "Khóa học LIVESTREAM THPT 2022 còn được biết tới với cái tên \" Khóa học thần thánh VIP 90 \" - Ôn là trúng tủ . Đây là khóa học không thể thiếu với các em dự thi môn Tiếng Anh trong kì thi THPT.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 1,
+                    "pathId": 4234214325,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/514275872-1645773360762-7f00dacb-28d8-4ac6-b8d1-ad7619c718c8.png",
+                        "title": "KHÓA LUYỆN ĐỀ PRO VIP 2022",
+                        "description": "Luyện bộ 40 đề thi VIP chuẩn cấu trúc đề thi THPT 2022, có tính dự đoán cao và được chữa chi tiết 50/50 câu.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 2,
+                    "pathId": 4234214326,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+                        "title": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)",
+                        "description": "Hơn 250 đề thi thử các Sở giáo dục và đào tạo - trường THPT danh tiếng cả nước mùa thi 2021-2022 có lời giải chi tiết 100%",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Combo Cấp tốc 2022",
+            "totalRealCost": 6100000,
+            "totalSaleCost": 1400000,
+            "coursesList": [
+                {
+                    "id": 0,
+                    "pathId": 4234214327,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/111925618-1647308620642-ngu_phap_tinh_gon.png",
+                        "title": "Ngữ Pháp Tinh Gọn 2022",
+                        "description": "Khóa học gồm 20 chủ điểm Ngữ pháp quan trọng nhất, đã xuất hiện trong đề thi chính thức 2021 giúp các em tự tin dành trọn điểm câu hỏi Ngữ pháp trong đề thi THPT Quốc Gia 2022.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 1,
+                    "pathId": 4234214328,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/445615472-1647308732573-anh_van_10-11-12.png",
+                        "title": "Anh văn 10-11-12",
+                        "description": "Khóa học giúp nắm chắc kiến thức Ngữ pháp theo chương trình SGK lớp 10,11,12 và mở rộng vốn từ vựng theo tinh thần ra đề của Bộ.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 2,
+                    "pathId": 4234214329,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/418256697-1647308818522-luyen_toan_dien_dang_bai_2022.png",
+                        "title": "Luyện toàn diện dạng bài thi THPT 2022",
+                        "description": "Khóa học giúp em tự tin giải quyết tốt các dạng bài trong đề thi thông qua các bài giảng kĩ lưỡng cung cấp kiến thức, kĩ năng, mẹo làm bài hiệu quả.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 3,
+                    "pathId": 4234214330,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/250553411-1647308869045-luyen_giai_e_thi_thpt_2022.png",
+                        "title": "Luyện giải đề thi THPT 2022",
+                        "description": "Khóa học gồm trên 50 đề bám sát cấu trúc đề thi THPT QG 2021 và phát triển đề thi tham khảo 2022 nhằm giúp các em thành thạo các kỹ năng làm bài thi, thử sức với các câu hỏi dễ trúng tủ nhất.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 4,
+                    "pathId": 4234214324,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/11513407-1647308889817-khoa_livestream_thptqg_2022.png",
+                        "title": "VIP 90 (2022): ÔN LÀ TRÚNG TỦ",
+                        "description": "Khóa học LIVESTREAM tổng ôn Bộ câu hỏi dễ trúng tủ và bộ đề phát triển đề tham khảo 2022 trong 90 ngày cuối",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 5,
+                    "pathId": 4234214325,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/499256100-1638926865445-flashcardpro3mplus.png",
+                        "title": "KHÓA LUYỆN ĐỀ PRO VIP 2022",
+                        "description": "Luyện bộ 40 đề thi VIP chuẩn cấu trúc đề thi THPT 2022, có tính dự đoán cao và được chữa chi tiết 50/50 câu.",
+                        "realCost": 900000,
+                        "saleCost": 850000,
+                        "tag": "Flashcard"
+                    }
+                },
+                {
+                    "id": 6,
+                    "pathId": 4234214326,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+                        "title": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)",
+                        "description": "Hơn 250 đề thi thử các Sở giáo dục và đào tạo - trường THPT danh tiếng cả nước mùa thi 2021-2022 có lời giải chi tiết 100%.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Pro3M Plus- Mục tiêu 9-10 điểm (2022)",
+            "totalRealCost": 6100000,
+            "totalSaleCost": 1665000,
+            "coursesList": [
+                {
+                    "id": 0,
+                    "pathId": 4234214334,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/398439363-1624863737918-image232.png",
+                        "title": "Plus 1: Luyện từ vựng tích cực (2022)",
+                        "description": "Luyện từ vựng tích cực là khóa từ vựng trọng điểm,chú trọng vào những phần từ vựng khó, chủ điểm phân loại học sinh khá- giỏi. Thời hạn sử dụng của khóa học đến kỳ thi tốt nghiệp THPT năm 2022, học sinh lớp 10,11 mua sớm sẽ được gia hạn có phí.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 1,
+                    "pathId": 4234214335,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/623941399-1624863780548-image210.png",
+                        "title": "Plus 2: Luyện đọc hiểu và điền từ chuyên sâu (2022)",
+                        "description": "Luyện giải đề sớm- rèn luyện nhanh vững kỹ năng dành cho các học viên khá muốn đạt điểm giỏi trong môn tiếng anh kì thi THPTQG 2022",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 2,
+                    "pathId": 4234214336,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/868469112-1624863811935-image29.png",
+                        "title": "Plus 3: Luyện giải đề sớm (2022)",
+                        "description": "Luyện giải đề sớm- rèn luyện nhanh vững kỹ năng dành cho các học viên khá muốn đạt điểm giỏi trong môn tiếng anh kì thi THPTQG 2022",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 3,
+                    "pathId": 4234214337,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/171602621-1624863904361-image237.png",
+                        "title": "Plus 4: VIP 90 (2022)",
+                        "description": "Khóa học LIVESTREAM tổng ôn Bộ câu hỏi dễ trúng tủ và bộ đề phát triển đề tham khảo 2022 trong 90 ngày cuối",
+                        "realCost": 900000,
+                        "saleCost": 850000,
+                        "tag": "video"
+                    }
+                },
+                {
+                    "id": 4,
+                    "pathId": 4234214338,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/896307634-1624863931695-image2411.png",
+                        "title": "Luyện ngữ âm- trọng âm cùng thầy Joe Hall",
+                        "description": "HỌC PHÁT ÂM CÙNG GIÁO VIÊN NƯỚC NGOÀI - MR JOE HALL- Giảng viên tiếng anh trường Đại học Tôn Đức Thắng",
+                        "realCost": 900000,
+                        "saleCost": 850000,
+                        "tag": "Flashcard"
+                    }
+                },
+                {
+                    "id": 5,
+                    "pathId": 4234214339,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/337347121-1635755856160-flashcard_pro3m.png",
+                        "title": "Flashcard- Từ vựng tiếng anh THPTQG 2022 (KHÓA TẶNG KÈM COMBO PROM3M PLUS)",
+                        "description": "Bộ Flashcard Online gồm: Anh văn 12 (400 từ) và các bộ từ vựng theo chủ đề đọc hiểu (môi trường, công nghệ, Covid19, giáo dục, xã hội...) mỗi bộ tầm 100 - 150 từ.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 6,
+                    "pathId": 4234214326,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+                        "title": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)",
+                        "description": "Hơn 250 đề thi thử các Sở giáo dục và đào tạo - trường THPT danh tiếng cả nước mùa thi 2021-2022 có lời giải chi tiết 100%",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bứt phá điểm thi vào 10 (2022)",
+            "totalRealCost": 3000000,
+            "totalSaleCost": 900000,
+            "coursesList": [
+                {
+                    "id": 0,
+                    "pathId": 4234214341,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/508429597-1624869969782-image239.png",
+                        "title": "Ngữ pháp cho kì thi vào 10 (2022)",
+                        "description": "Khoá học bao gồm các video bài giảng với những kiến thức chắt lọc và tổng hợp nhất về NGỮ PHÁP TIẾNG ANH THCS- phù hợp cho những bạn mất gốc muốn tổng hợp- bổ sung nhanh kiến thức căn bản cơ bản.",
+                        "realCost": 900000,
+                        "saleCost": 850000,
+                        "tag": "video"
+                    }
+                },
+                {
+                    "id": 1,
+                    "pathId": 4234214342,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/535696512-1626764961941-image2421.png",
+                        "title": "Củng cố kiến thức SGK Anh văn 9 (2022)",
+                        "description": "Khóa Củng cố kiến thức SGK Anh văn 9 (2022) nằm trong Combo Khóa Ôn Thi Tiếng Anh Lớp 10 năm 2022 do Cô Vũ Mai Phương biện soạn nội dung và trực tiếp giảng dạy. Khóa học gồm tổng hợp những phần kiến thức Tiếng Anh lớp 9 quan trọng và bài tập ngữ pháp Tiếng Anh thực hành giúp học sinh lớp 9 ôn tập khái quát kiến thức đã học hiệu quả.",
+                        "realCost": 900000,
+                        "saleCost": 850000,
+                        "tag": "video"
+                    }
+                },
+                {
+                    "id": 2,
+                    "pathId": 4234214343,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/291929452-1624870033575-image243.png",
+                        "title": "Luyện đề tuyển sinh vào lớp 10 (2022)",
+                        "description": "Khóa Luyện Đề Tuyển Sinh Vào 10 nằm trong Combo Khóa Ôn Thi Tiếng Anh Lớp 10 năm 2022. Khóa học gồm 60+ đề thi tuyển sinh vào 10 được cô Mai phương biên soạn chọn lọc công phu. Hệ thống câu hỏi trong khóa học được biên soạn mới 100% và bám sát xu thế đề thi vào 10 môn Tiếng Anh. Câu hỏi và bài tập 100% có lời giải chi tiết.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                },
+                {
+                    "id": 3,
+                    "pathId": 4234214344,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/335720895-1638926904497-flashcardtuvungav9.png",
+                        "title": "Flashcard- Từ vựng anh văn 9 (2022)",
+                        "description": "Bộ flashcard từ vựng anh văn 9 gồm 12 unit từ vựng đi kèm phát âm, giải nghĩa và ví dụ, với các game luyện từ vựng giúp học viên ghi nhớ nhanh các từ vựng trong chương trình anh văn 9",
+                        "realCost": 900000,
+                        "saleCost": 850000,
+                        "tag": "Flashcard"
+                    }
+                },
+                {
+                    "id": 4,
+                    "pathId": 423421434,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/164000219-1626764999046-s30bcopy62.png",
+                        "title": "Luyện các dạng bài trong đề thi vào 10 (2022)",
+                        "description": "Trong khóa học này các em sẽ được cung cấp kiến thức chi tiết và đầy đủ nhất của các dạng bài tập xuất hiện trong cấu trúc đề thi tuyển sinh vào 10 môn tiếng anh thông qua các video bài giảng của cô Mai Phương, kết hợp với  bài thi online có chấm điểm kèm theo mỗi video bài giảng sẽ giúp các em thực hành luyện tập ngay sau khi học, đem lại kết quả tốt nhất trong môn tiếng anh cho kì thi.",
+                        "realCost": 900000,
+                        "saleCost": 850000
+                    }
+                }
+            ]
+        }
+    ],
+
+    "courses-practice-2023": [
+        {
+            "id": 0,
+            "name": "PRO3M - MỤC TIÊU 8 ĐIỂM (2023)",
+            "totalRealCost": 7445000,
+            "totalSaleCost": 1754000,
+            "coursesList": [
+                {
+                    "id": 0,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/68218848-1644480719357-1.png",
+                        "title": "Ngữ pháp Tiếng Anh trọn đời (2023)",
+                        "description": "Khóa học tổng hợp tất cả kiến thức Ngữ pháp trong Tiếng Anh giúp các em tự tin Ăn trọn điểm câu hỏi Ngữ pháp trong các đề thi (THPT, ĐGNL, ĐG tư duy), TOEIC, IELTS....",
+                        "realCost": 1580000,
+                        "saleCost": 1530000
+                    }
+                },
+                {
+                    "id": 1,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/944549641-1644480752465-2.png",
+                        "title": "Anh văn 10-11-12 (Cơ bản và mở rộng)",
+                        "description": "Khóa học cung cấp đầy đủ kiến thức căn bản nhất chương trình SGK Anh văn 10-11-12 và mở rộng kiến thức từ vựng - ngữ pháp nhằm phục vụ tốt nhất của đề thi (THPT, ĐG tư duy, ĐG năng lực) năm 2023",
+                        "realCost": 580000,
+                        "saleCost": 530000
+                    }
+                },
+                {
+                    "id": 2,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/667225107-1644480787900-3.png",
+                        "title": "Ôn tập cơ bản, tổng hợp các dạng câu hỏi trong đề thi (2023)",
+                        "description": "Khóa học giúp em tự tin giải quyết tốt TẤT CẢ dạng bài trong đề thi (THPT, ĐG tư duy, ĐG năng lực) thông qua các bài giảng kĩ lưỡng cung cấp kiến thức, kĩ năng, mẹo làm bài hiệu quả.",
+                        "realCost": 1280000,
+                        "saleCost": 1230000
+                    }
+                },
+                {
+                    "id": 3,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/545835091-1644480668265-4.png",
+                        "title": "Luyện giải đề thi THPT 2023 (Mức độ khó: 7-8 điểm)",
+                        "description": "Luyện giải bộ đề chuẩn cấu trúc, có tính dự đoán cao cho các kì thi (THPT, ĐG năng lực, ĐG tư duy) năm 2023.",
+                        "realCost": 880000,
+                        "saleCost": 830000
+                    }
+                },
+                {
+                    "id": 4,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/700319878-1644480820257-5.png",
+                        "title": "VIP 90 (2023)",
+                        "description": "Khóa học LIVESTREAM tổng ôn Bộ câu hỏi dễ trúng tủ và bộ đề phát triển đề tham khảo 2023 trong 90 ngày cuối",
+                        "realCost": 1080000,
+                        "saleCost": 1030000
+                    }
+                },
+                {
+                    "id": 5,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/933654402-1644480865031-6.png",
+                        "title": "Flashcard Online PRO3M: Học và ghi nhớ từ vựng hiệu quả nhất (2023)",
+                        "description": "Học từ vựng theo 1 cách mới: Dễ hơn - Hiệu quả hơn - Ghi nhớ lâu hơn.",
+                        "realCost": 1080000,
+                        "saleCost": 1030000
+                    }
+                },
+                {
+                    "id": 6,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/814635430-1644480899965-7.png",
+                        "title": "Ngân hàng đề thi tốt nghiệp THPT 2023",
+                        "description": "250+ đề thi thử chọn lọc từ các trường THPT uy tín - Sở giáo dục mùa thi 2022-2023 có giải chi tiết 100%",
+                        "realCost": 930000,
+                        "saleCost": 880000
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "PRO3M PLUS - MỤC TIÊU 9-10 ĐIỂM (2023)",
+            "totalRealCost": 6740000,
+            "totalSaleCost": 1805000,
+            "coursesList": [
+                {
+                    "id": 0,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/466244326-1644480950163-11.png",
+                        "title": "Plus 1: Luyện từ vựng tích cực (2023)",
+                        "description": "Nâng cấp từ vựng, làm chủ các câu hỏi từ vựng 9+ trong các đề thi (THPT, ĐG năng lực, ĐG tư duy) năm 2023",
+                        "realCost": 830000,
+                        "saleCost": 780000
+                    }
+                },
+                {
+                    "id": 1,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/600395426-1644480989468-21.png",
+                        "title": "Plus 2: Luyện đọc điền và đọc hiểu chuyên sâu (2023)",
+                        "description": "Khóa học cung cấp kĩ năng, mẹo làm bài vô cùng hiệu quả kết hợp tính năng tập dịch song ngữ và 200+ bài đọc được chữa VIDEO + LIVESTREAM chi tiết giúp em tự tin ăn trọn điểm bài đọc trong mọi đề thi",
+                        "realCost": 930000,
+                        "saleCost": 880000
+                    }
+                },
+                {
+                    "id": 2,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/784492496-1644481044554-31.png",
+                        "title": "Plus 3: Luyện giải đề thi THPT 2023 (Mức độ khó: 8-10 điểm)",
+                        "description": "Luyện giải bộ đề với mức độ khó 8-10 điểm chuẩn cấu trúc, có tính dự đoán cao cho các kì thi (THPT, ĐG năng lực, ĐG tư duy) năm 2023",
+                        "realCost": 1280000,
+                        "saleCost": 1230000
+                    }
+                },
+                {
+                    "id": 3,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/625069139-1644481069494-41.png",
+                        "title": "Plus 4: VIP 90 2023",
+                        "description": "Khóa học LIVESTREAM tổng ôn Bộ câu hỏi dễ trúng tủ và bộ đề phát triển đề tham khảo 2023 trong 90 ngày cuối",
+                        "realCost": 1080000,
+                        "saleCost": 1030000
+                    }
+                },
+                {
+                    "id": 4,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/822152533-1644481099650-51.png",
+                        "title": "Luyện ngữ âm - trọng âm cùng thầy Joe Hall (2023)",
+                        "description": "Phát âm chuẩn cùng GIÁO VIÊN NƯỚC NGOÀI - MR JOE HALL - Giảng viên trường Đại học Tôn Đức Thắng",
+                        "realCost": 580000,
+                        "saleCost": 530000
+                    }
+                },
+                {
+                    "id": 5,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/145322564-1644481141612-61.png",
+                        "title": "Flashcard Online PRO3M: Học và ghi nhớ từ vựng hiệu quả nhất (2023)",
+                        "description": "Học từ vựng theo 1 cách mới: Dễ hơn - Hiệu quả hơn - Ghi nhớ lâu hơn.",
+                        "realCost": 1280000,
+                        "saleCost": 1230000
+                    }
+                },
+                {
+                    "id": 6,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/649632680-1644481174146-71.png",
+                        "title": "Ngân hàng đề thi tốt nghiệp THPT 2023",
+                        "description": "250+ đề thi thử chọn lọc từ các trường THPT uy tín - Sở giáo dục mùa thi 2022-2023 có giải chi tiết 100%",
+                        "realCost": 930000,
+                        "saleCost": 880000
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bứt phá điểm thi vào 10 (2023)",
+            "totalRealCost": 3000000,
+            "totalSaleCost": 900000,
+            "coursesList": [
+                {
+                    "id": 2,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/552249432-1652245572735-1.png",
+                        "title": "Ngữ pháp cho kì thi vào 10 (2023)",
+                        "description": "Khoá học bao gồm các video bài giảng với những kiến thức chắt lọc và tổng hợp nhất về NGỮ PHÁP TIẾNG ANH THCS- phù hợp cho những bạn mất gốc muốn tổng hợp- bổ sung nhanh kiến thức căn bản cơ bản.",
+                        "realCost": 400000,
+                        "saleCost": 350000,
+                        "tag": "video"
+                    }
+                },
+                {
+                    "id": 1,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/537776667-1652245613334-5.png",
+                        "title": "Luyện các dạng bài trong đề thi vào 10 (2023)",
+                        "description": "Trong khóa học này các em sẽ được cung cấp kiến thức chi tiết và đầy đủ nhất của các dạng bài tập xuất hiện trong cấu trúc đề thi tuyển sinh vào 10 môn tiếng anh thông qua các video bài giảng của cô Mai Phương, kết hợp với  bài thi online có chấm điểm kèm theo mỗi video bài giảng sẽ giúp các em thực hành luyện tập ngay sau khi học, đem lại kết quả tốt nhất trong môn tiếng anh cho kì thi.",
+                        "realCost": 500000,
+                        "saleCost": 450000
+                    }
+                },
+                {
+                    "id": 2,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/183938884-1652245649675-2.png",
+                        "title": "Củng cố kiến thức SGK Anh văn 9 (2023)",
+                        "description": "Khóa Củng cố kiến thức SGK Anh văn 9 (2023) nằm trong Combo Khóa Ôn Thi Tiếng Anh Lớp 10 năm 2022 do Cô Vũ Mai Phương biện soạn nội dung và trực tiếp giảng dạy. Khóa học gồm tổng hợp những phần kiến thức Tiếng Anh lớp 9 quan trọng và bài tập ngữ pháp Tiếng Anh thực hành giúp học sinh lớp 9 ôn tập khái quát kiến thức đã học hiệu quả.",
+                        "realCost": 500000,
+                        "saleCost": 450000
+                    }
+                },
+                {
+                    "id": 3,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/145673153-1652245692892-3.png",
+                        "title": "Luyện đề tuyển sinh vào lớp 10 (2023)",
+                        "description": "Khóa Luyện Đề Tuyển Sinh Vào 10 nằm trong Combo Khóa Ôn Thi Tiếng Anh Lớp 10 năm 2023. Khóa học gồm 60+ đề thi tuyển sinh vào 10 được cô Mai phương biên soạn chọn lọc công phu. Hệ thống câu hỏi trong khóa học được biên soạn mới 100% và bám sát xu thế đề thi vào 10 môn Tiếng Anh. Câu hỏi và bài tập 100% có lời giải chi tiết.",
+                        "realCost": 550000,
+                        "saleCost": 500000
+                    }
+                },
+                {
+                    "id": 4,
+                    "content": {
+                        "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/295025204-1652245720047-4.png",
+                        "title": "Flashcard- Từ vựng anh văn 9 (2023)",
+                        "description": "Bộ flashcard từ vựng anh văn 9 gồm 12 unit từ vựng đi kèm phát âm, giải nghĩa và ví dụ, với các game luyện từ vựng giúp học viên ghi nhớ nhanh các từ vựng trong chương trình anh văn 9",
+                        "realCost": 1050000,
+                        "saleCost": 1000000
+                    }
+                }
+            ]
+        }
+    ],
+
+    "all-courses": [
+        {
+            "pathId": 4234214324,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/11513407-1647308889817-khoa_livestream_thptqg_2022.png",
+                "name": "VIP 90 (2022): ÔN LÀ TRÚNG TỦ"
+            }
+        },
+        {
+            "pathId": 4234214325,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/514275872-1645773360762-7f00dacb-28d8-4ac6-b8d1-ad7619c718c8.png",
+                "name": "KHÓA LUYỆN ĐỀ PRO VIP 2022"
+            }
+        },
+        {
+            "pathId": 4234214326,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+                "name": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)"
+            }
+        },
+        {
+            "pathId": 4234214327,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/111925618-1647308620642-ngu_phap_tinh_gon.png",
+                "name": "Ngữ Pháp Tinh Gọn 2022"
+            }
+        },
+        {
+            "pathId": 4234214328,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/445615472-1647308732573-anh_van_10-11-12.png",
+                "name": "Anh văn 10-11-12"
+            }
+        },
+        {
+            "pathId": 4234214329,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/418256697-1647308818522-luyen_toan_dien_dang_bai_2022.png",
+                "name": "Luyện toàn diện dạng bài thi THPT 2022"
+            }
+        },
+        {
+            "pathId": 4234214330,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/250553411-1647308869045-luyen_giai_e_thi_thpt_2022.png",
+                "name": "Luyện giải đề thi THPT 2022"
+            }
+        },
+        {
+            "pathId": 4234214334,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/398439363-1624863737918-image232.png",
+                "name": "Plus 1: Luyện từ vựng tích cực (2022)"
+            }
+        },
+        {
+            "pathId": 4234214335,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/623941399-1624863780548-image210.png",
+                "name": "Plus 2: Luyện đọc hiểu và điền từ chuyên sâu (2022)"
+            }
+        },
+        {
+            "pathId": 4234214336,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/868469112-1624863811935-image29.png",
+                "name": "Plus 3: Luyện giải đề sớm (2022)"
+            }
+        },
+        {
+            "pathId": 4234214337,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/171602621-1624863904361-image237.png",
+                "name": "Plus 4: VIP 90 (2022)"
+            }
+        },
+        {
+            "pathId": 4234214338,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/896307634-1624863931695-image2411.png",
+                "name": "Luyện ngữ âm- trọng âm cùng thầy Joe Hall"
+            }
+        },
+        {
+            "pathId": 4234214339,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/337347121-1635755856160-flashcard_pro3m.png",
+                "name": "Flashcard- Từ vựng tiếng anh THPTQG 2022 (KHÓA TẶNG KÈM COMBO PROM3M PLUS)"
+            }
+        },
+        {
+            "pathId": 4234214341,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/508429597-1624869969782-image239.png",
+                "name": "Ngữ pháp cho kì thi vào 10 (2022)"
+            }
+        },
+        {
+            "pathId": 4234214342,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/535696512-1626764961941-image2421.png",
+                "name": "Củng cố kiến thức SGK Anh văn 9 (2022)"
+            }
+        },
+        {
+            "pathId": 4234214343,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/291929452-1624870033575-image243.png",
+                "name": "Luyện đề tuyển sinh vào lớp 10 (2022)"
+            }
+        },
+        {
+            "pathId": 4234214344,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/335720895-1638926904497-flashcardtuvungav9.png",
+                "name": "Flashcard- Từ vựng anh văn 9 (2022)"
+            }
+        },
+        {
+            "pathId": 423421434,
+            "content": {
+                "urlImage": "https://storage.googleapis.com/comaiphuong-edu-media/images/164000219-1626764999046-s30bcopy62.png",
+                "name": "Luyện các dạng bài trong đề thi vào 10 (2022)"
+            }
+        }
+    ],
+
+    "course-child-topics": [
+        {
+            "id": 4234214324,
+            "name": "VIP90 (2022): ÔN LÀ TRÚNG TỦ",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/11513407-1647308889817-khoa_livestream_thptqg_2022.png",
+            "coursesChildren": [
+                {
+                    "id": 0,
+                    "name": "Bài kiểm tra bắt buộc - từ vựng",
+                    "description": "Bài kiểm tra bắt buộc - từ vựng là bài thi đầu vào đánh giá trình độ từ vựng của học sinh, với những học sinh không vượt qua bài thi từ vựng này, các em sẽ được tham gia làm các bài thi thêm thuộc mục Bài tập bổ túc từ vựng được cập nhật hàng tuần trên layout khoá vip90 của mình.",
+                    "progress": null
+                },
+                {
+                    "id": 1,
+                    "name": "Bài kiểm tra bắt buộc - đọc hiểu",
+                    "description": "Bài kiểm tra bắt buộc - đọc hiểu là bài thi đầu vào đánh giá trình độ kiến thức đọc hiểu của học sinh, với những học sinh không vượt qua bài thi đọc hiểu này, các em sẽ được tham gia làm các bài thi thêm thuộc mục Bài tập bổ túc đọc hiểu được cập nhật hàng tuần trên layout khoá vip90 của mình.",
+                    "progress": null
+                },
+                {
+                    "id": 2,
+                    "name": "Bài tập bổ túc từ vựng",
+                    "description": "Đây là danh mục bài thi dành cho học sinh cần bổ trợ thêm kiến thức về từ vựng, ngoài các bài giảng và bài thi theo tuần của vip90 các em cần tham gia làm thêm các bài thi thuộc danh mục này để cải thiện thêm kiến thức từ vựng của mình.",
+                    "progress": null,
+                    "childrenTopics": [
+                        {
+                            "id": 0,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 1,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 2,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 4,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 5,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 6,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 7,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 8,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 9,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Bài tập bổ túc đọc hiểu",
+                    "description": "Đây là danh mục bài thi dành cho học sinh cần bổ trợ thêm kiến thức về đọc hiểu, ngoài các bài giảng và bài thi theo tuần của vip90 các em cần tham gia làm thêm các bài thi thuộc danh mục này để cải thiện thêm kiến thức đọc hiểu của mình.",
+                    "progress": null,
+                    "childrenTopics": [
+                        {
+                            "id": 0,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 1,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 2,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 4,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 5,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 6,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 7,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 8,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 9,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Tuần số 01",
+                    "description": "5 Bài giảng, 5 Bài thi Online",
+                    "progress": null,
+                    "childrenTopics": [
+                        {
+                            "id": 0,
+                            "name": "Bài giảng lý thuyết: Thì và sự phối thì",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 1,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 2,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 4,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 5,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 6,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 7,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 8,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 9,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4234214325,
+            "name": "KHÓA LUYỆN ĐỀ PRO VIP 2022",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/514275872-1645773360762-7f00dacb-28d8-4ac6-b8d1-ad7619c718c8.png",
+            "coursesChildren": [
+                {
+                    "id": 0,
+                    "name": "Bài kiểm tra bắt buộc - từ vựng",
+                    "description": "Bài kiểm tra bắt buộc - từ vựng là bài thi đầu vào đánh giá trình độ từ vựng của học sinh, với những học sinh không vượt qua bài thi từ vựng này, các em sẽ được tham gia làm các bài thi thêm thuộc mục Bài tập bổ túc từ vựng được cập nhật hàng tuần trên layout khoá vip90 của mình.",
+                    "progress": null
+                },
+                {
+                    "id": 1,
+                    "name": "Bài kiểm tra bắt buộc - đọc hiểu",
+                    "description": "Bài kiểm tra bắt buộc - đọc hiểu là bài thi đầu vào đánh giá trình độ kiến thức đọc hiểu của học sinh, với những học sinh không vượt qua bài thi đọc hiểu này, các em sẽ được tham gia làm các bài thi thêm thuộc mục Bài tập bổ túc đọc hiểu được cập nhật hàng tuần trên layout khoá vip90 của mình.",
+                    "progress": null
+                },
+                {
+                    "id": 2,
+                    "name": "Bài tập bổ túc từ vựng",
+                    "description": "Đây là danh mục bài thi dành cho học sinh cần bổ trợ thêm kiến thức về từ vựng, ngoài các bài giảng và bài thi theo tuần của vip90 các em cần tham gia làm thêm các bài thi thuộc danh mục này để cải thiện thêm kiến thức từ vựng của mình.",
+                    "progress": null,
+                    "childrenTopics": [
+                        {
+                            "id": 0,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 1,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 2,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 4,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 5,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 6,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 7,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 8,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 9,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Từ vựng",
+                            "questionsNumber": 33,
+                            "progress": null
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Bài tập bổ túc đọc hiểu",
+                    "description": "Đây là danh mục bài thi dành cho học sinh cần bổ trợ thêm kiến thức về đọc hiểu, ngoài các bài giảng và bài thi theo tuần của vip90 các em cần tham gia làm thêm các bài thi thuộc danh mục này để cải thiện thêm kiến thức đọc hiểu của mình.",
+                    "progress": null,
+                    "childrenTopics": [
+                        {
+                            "id": 0,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 1,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 2,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 4,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 5,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 6,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 7,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 8,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 9,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Tuần số 01",
+                    "description": "5 Bài giảng, 5 Bài thi Online",
+                    "progress": null,
+                    "childrenTopics": [
+                        {
+                            "id": 0,
+                            "name": "Bài giảng lý thuyết: Thì và sự phối thì",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 1,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 2,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 3,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 4,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 5,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 6,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 7,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 8,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        },
+                        {
+                            "id": 9,
+                            "name": "[ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu",
+                            "questionsNumber": 33,
+                            "progress": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "related-courses": [
+        {
+            "id": 0,
+            "name": "KHÓA LUYỆN ĐỀ PRO VIP 2022",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/514275872-1645773360762-7f00dacb-28d8-4ac6-b8d1-ad7619c718c8.png",
+            "price": 900000,
+            "rateValue": 0,
+            "rateCount": 0
+        },
+        {
+            "id": 1,
+            "name": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+            "price": 900000,
+            "rateValue": 5,
+            "rateCount": 12
+        },
+        {
+            "id": 2,
+            "name": "KHÓA LUYỆN ĐỀ PRO VIP 2023",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/514275872-1645773360762-7f00dacb-28d8-4ac6-b8d1-ad7619c718c8.png",
+            "price": 900000,
+            "rateValue": 0,
+            "rateCount": 0
+        },
+        {
+            "id": 3,
+            "name": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+            "price": 900000,
+            "rateValue": 5,
+            "rateCount": 12
+        },
+        {
+            "id": 4,
+            "name": "KHÓA LUYỆN ĐỀ PRO VIP 2022",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/514275872-1645773360762-7f00dacb-28d8-4ac6-b8d1-ad7619c718c8.png",
+            "price": 900000,
+            "rateValue": 0,
+            "rateCount": 0
+        },
+        {
+            "id": 5,
+            "name": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+            "price": 900000,
+            "rateValue": 5,
+            "rateCount": 12
+        },
+        {
+            "id": 6,
+            "name": "KHÓA LUYỆN ĐỀ PRO VIP 2024",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/514275872-1645773360762-7f00dacb-28d8-4ac6-b8d1-ad7619c718c8.png",
+            "price": 900000,
+            "rateValue": 0,
+            "rateCount": 0
+        },
+        {
+            "id": 7,
+            "name": "Ngân hàng đề thi tốt nghiệp THPTQG 2022 (KHÓA TẶNG KÈM HỌC SINH SỞ HỮU PRO3M/COMBO CẤP TỐC HOẶC PRO 3M PLUS)",
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/142692296-1633053392403-ngan_hang_de_thi.png",
+            "price": 900000,
+            "rateValue": 5,
+            "rateCount": 12
+        }
+    ],
+
+    "activities-recently": [
+        {
+            "id": 0,
+            "content": "Làm bài kiểm tra: [ Tuần số 01 ] Bài tập bổ trợ nâng cao kĩ năng Đọc hiểu - Đúng: 10/12",
+            "userName": "Nguyễn Thị Diệu Huyền",
+            "userId": "dieuhuyen1612",
+            "startDate": 1654738332879
+        },
+        {
+            "id": 1,
+            "content": "Làm bài kiểm tra: Bài thi online: Học tủ bộ từ vựng có cùng trường nghĩa (Buổi 2) - Đúng: 25/25",
+            "userName": "Trần Anh Quang",
+            "userId": "anhquang",
+            "startDate": 1654738329690
+        },
+        {
+            "id": 2,
+            "content": "Làm bài kiểm tra: Bài thi online: Ăn trọn điểm Collocation: Collocation đi với do/have/make - Đúng: 25/25",
+            "userName": "Kim Ngân",
+            "userId": "kimngan",
+            "startDate": 1654738327403
+        },
+        {
+            "id": 3,
+            "content": "Làm bài kiểm tra: Bài thi online: Bộ đề dễ trúng tủ: Giới từ (Buổi 3) - Đúng: 14/25",
+            "userName": "Nguyễn Minh Trang",
+            "userId": "minhtrang",
+            "startDate": 1654738324437
+        }
+    ],
+
+    "overview-courses": [
+        {
+            "id": 4234214324,
+            "rate": 4,
+            "rateTotal": 29,
+            "numberStudents": 5224,
+            "structure": {
+                "chuyenDe": 11,
+                "baiGiang": 57,
+                "baiThiOnline": 12,
+                "thoiGian": 2022
+            },
+            "cost": 850000
+        },
+        {
+            "id": 4234214325,
+            "rate": 4,
+            "rateTotal": 29,
+            "numberStudents": 5224,
+            "structure": {
+                "chuyenDe": 11,
+                "baiGiang": 57,
+                "baiThiOnline": 12,
+                "thoiGian": 2022
+            },
+            "cost": 850000
+        }
+    ],
+
+    "news-of-course": [
+        {
+            "id": 0,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "updated": 1565751752968
+        },
+        {
+            "id": 1,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "updated": 1565146479848
+        },
+        {
+            "id": 2,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "updated": 1565751752968
+        },
+        {
+            "id": 3,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "updated": 1565146479848
+        },{
+            "id": 4,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "updated": 1565751752968
+        },
+        {
+            "id": 5,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "updated": 1565146479848
+        },
+        {
+            "id": 6,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "updated": 1565751752968
+        },
+        {
+            "id": 7,
+            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "updated": 1565146479848
+        }
+    ]
+}

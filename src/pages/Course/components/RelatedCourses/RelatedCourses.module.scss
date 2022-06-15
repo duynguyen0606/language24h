@@ -1,0 +1,22 @@
+
+.show-related {
+    .item {
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #337ab7;
+
+        &:hover .course-name{
+            text-decoration: underline;
+        }
+
+        img {
+            width: 70px;
+            height: 45px;
+            margin-right: 10px;
+        }
+    }
+
+}

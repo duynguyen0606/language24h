@@ -1,0 +1,14 @@
+.carousel .control-dots .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #869791;
+    opacity: unset;
+}
+
+.carousel .control-dots .dot.selected {
+    background-color: var(--root-color);
+}
+
+// .carousel .slider.animated {
+//     transition-duration: 700ms !important;
+// } 
