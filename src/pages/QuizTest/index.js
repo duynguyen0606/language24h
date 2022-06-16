@@ -7,43 +7,60 @@ import { timeOut } from '../../redux/actions/quizActions'
 
 const cx = classNames.bind(styles)
 
+let timerId
+
 function QuizTest() {
     const dispatch = useDispatch()
-    const { activeQuestion, time, answers, showModal, isFinished } = useSelector((state) => state.quizReducers)
+    const { activeQuestion, time, answers, showModal, isFinished, showAnswer } = useSelector(
+        (state) => state.quizReducers,
+    )
     const [timer, setTimer] = useState(time)
 
     useEffect(() => {
         if (timer > 0) {
-            setTimeout(() => setTimer(timer - 1), 1000)
+            timerId = setTimeout(() => setTimer(timer - 1), 1000)
         } else {
+            clearTimeout(timerId)
             dispatch(timeOut())
         }
     }, [timer])
 
+    useEffect(() => {
+        if (isFinished) {
+            clearTimeout(timerId)
+        }
+    }, [isFinished])
+
     return (
         <div className={cx('wrapper')}>
             <div className='container'>
-                <div className={cx('title')}>
-                    <h2>Quiz test</h2>
-                </div>
-                <div
-                    style={{
-                        backgroundColor: 'var(--white-color)',
-                        padding: '16px',
-                        minHeight: '320px',
-                        borderBottomLeftRadius: '10px',
-                        borderBottomRightRadius: '10px',
-                    }}
-                >
-                    <Timer timer={timer} />
-                    <QuestionBlock
-                        activeQuestion={activeQuestion}
-                        time={time}
-                        answers={answers}
-                        showModal={showModal}
-                        timer={timer}
-                    />
-                </div>
+                {isFinished ? (
+                    <QuizEnd />
+                ) : (
+                    <>
+                        <div className={cx('title')}>
+                            <h2>Quiz test</h2>
+                        </div>
+                        <div
+                            style={{
+                                backgroundColor: 'var(--white-color)',
+                                padding: '16px',
+                                minHeight: '320px',
+                                borderBottomLeftRadius: '10px',
+                                borderBottomRightRadius: '10px',
+                            }}
+                        >
+                            <Timer timer={timer} />
+                            <QuestionBlock
+                                activeQuestion={activeQuestion}
+                                time={time}
+                                answers={answers}
+                                showModal={showModal}
+                                timer={timer}
+                            />
+                        </div>
+                    </>
+                )}
             </div>
         </div>
     )

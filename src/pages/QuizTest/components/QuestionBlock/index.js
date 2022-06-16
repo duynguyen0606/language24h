@@ -35,7 +35,7 @@ const data = [
     },
 ]
 
-function QuestionBlock({ time, activeQuestion, answers, showModal, timer }) {
+function QuestionBlock({ time, activeQuestion, answers, showAnswer, timer}) {
     const radiosWrapper = useRef()
     const dispatch = useDispatch()
     const [selected, setSelected] = useState('')
@@ -71,8 +71,8 @@ function QuestionBlock({ time, activeQuestion, answers, showModal, timer }) {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('active-quiz')}>
-                <span style={{ fontSize: '2rem', fontStyle: 'italic', fontWeight: 'bold' }}>{activeQuestion + 1}</span>
-                /<span style={{ fontStyle: 'italic' }}>{data.length}</span>
+                <span style={{ fontSize: '2rem', fontStyle: 'italic', fontWeight: 'bold' }}>{activeQuestion + 1}</span>/
+                <span style={{ fontStyle: 'italic' }}>{data.length}</span>
             </div>
             <div className={cx('content')}>
                 <div>{data[activeQuestion].question}</div>
@@ -91,21 +91,33 @@ function QuestionBlock({ time, activeQuestion, answers, showModal, timer }) {
                             </label>
                         </div>
                     ))}
+
+                    {showAnswer ? (
+                        <div className={cx('result')}>
+                            <div>{data[activeQuestion].answer}</div>
+                        </div>
+                    ) : (
+                        <></>
+                    )}
                 </div>
             </div>
-            <div className={cx('footer')}>
-                {activeQuestion + 1 < data.length ? (
-                    <>
-                        <button className={cx('button')} onClick={handleNextQuiz}>
-                            NEXT
+            {showAnswer ? (
+                <></>
+            ) : (
+                <div className={cx('footer')}>
+                    {activeQuestion + 1 < data.length ? (
+                        <>
+                            <button className={cx('button')} onClick={handleNextQuiz}>
+                                NEXT
+                            </button>
+                        </>
+                    ) : (
+                        <button className={cx('button', 'submit')} onClick={handleSubmit}>
+                            SUBMIT
                         </button>
-                    </>
-                ) : (
-                    <button className={cx('button', 'submit')} onClick={handleSubmit}>
-                        SUBMIT
-                    </button>
-                )}
-            </div>
+                    )}
+                </div>
+            )}
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import { START_QUIZ, TIME_OUT, QUIZ_NEXT, QUIZ_SUBMIT } from '../constant/quizConstants'
+import { START_QUIZ, TIME_OUT, QUIZ_NEXT, QUIZ_SUBMIT, QUIZ_SHOW_ANSWER } from '../constant/quizConstants'
 
 export const startQuiz = (time) => {
     return {
@@ -15,11 +15,11 @@ export const timeOut = () => {
     }
 }
 
-export const quizNext = (answer) => {
+export const quizNext = (answers) => {
     return {
         type: QUIZ_NEXT,
         payload: {
-            answer: answer,
+            answers: answers,
         },
     }
 }
@@ -32,5 +32,11 @@ export const quizSubmit = (answers, time, isFinished) => {
             time: time,
             isFinished: isFinished,
         },
+    }
+}
+
+export const quizShowAnswer = () => {
+    return {
+        type: QUIZ_SHOW_ANSWER
     }
 }
