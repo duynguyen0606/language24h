@@ -1,4 +1,4 @@
-import { GET_COURSE } from "../constant/courseOfCategory"
+import { GET_COURSE } from '../constant/courseOfCategoryConstants'
 
 export const getCoursesByCategoryId = (id, courses) => {
     return {
@@ -15,7 +15,8 @@ export const showChildCoursesById = (id, show) => {
         type: 'SHOW',
         payload: {
             id: id,
-            show: show
-        }
+            show: show,
+        },
     }
-} 
+}
+

@@ -1,11 +1,13 @@
+import { GET_COURSE } from '../constant/courseOfCategoryConstants'
+
 const initialState = {
     listIds: [],
-    coursesList: []
+    coursesList: [],
 }
 
 function categoryReducers(state = initialState, action) {
-    switch (action.type) { 
-        case 'GET_COURSES': {
+    switch (action.type) {
+        case GET_COURSE: {
             if (state.listIds.includes(action.payload.id)) {
                 return {
                     ...state,

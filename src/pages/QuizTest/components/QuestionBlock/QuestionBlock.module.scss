@@ -1,0 +1,38 @@
+.wrapper {
+    color: var(--text-color);
+}
+
+.title {
+    padding-left: 16px;
+    background-color: var(--white-color);
+}
+
+.active-quiz {
+    text-align: right;
+}
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper-answer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.answer-item {
+    padding: 4px 0;
+}
+
+.button {
+    background-color: rgb(103, 103, 208);
+    padding: 6px 12px;
+    color: var(--white-color);
+    border-radius: 4px;
+}
+
+.button.submit {
+    background-color: rgb(10, 56, 129);
+}

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Course from './pages/Course'
-import Test from './pages/Test'
+import QuizTest from './pages/QuizTest'
 import DefaultLayout from './components/Layouts/DefaultLayout'
 function App() {
     return (
@@ -13,7 +13,7 @@ function App() {
                         <Route path='/course'>
                             <Route path=':courseId' element={<Course />} />
                         </Route>
-                        <Route path='/test' element={<Test />} />
+                        <Route path='/test' element={<QuizTest />} />
                     </Routes>
                 </DefaultLayout>
             </div>

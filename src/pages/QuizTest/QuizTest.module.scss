@@ -1,0 +1,19 @@
+.wrapper {
+    background-color: #ddd;
+    padding: 50px 0;
+}
+
+.title {
+    background-color: rgb(103 103 208);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
