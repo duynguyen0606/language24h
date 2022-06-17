@@ -35,7 +35,7 @@ const data = [
     },
 ]
 
-function QuestionBlock({ time, activeQuestion, answers, showAnswer, timer}) {
+function QuestionBlock({ time, activeQuestion, answers, showAnswer, timer }) {
     const radiosWrapper = useRef()
     const dispatch = useDispatch()
     const [selected, setSelected] = useState('')

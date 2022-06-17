@@ -40,7 +40,7 @@ function quizReducers(state = initialState, action) {
                 ...state,
                 answers: action.payload.answers,
                 time: action.payload.time,
-                isFinished: action.payload.isFinished
+                isFinished: true
             }
         }
 
