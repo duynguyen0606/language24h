@@ -1,9 +1,18 @@
-import { START_QUIZ, TIME_OUT, QUIZ_NEXT, QUIZ_SUBMIT, QUIZ_SHOW_ANSWER} from '../constant/quizConstants'
+import {
+    START_QUIZ,
+    TIME_OUT,
+    QUIZ_NEXT,
+    QUIZ_SUBMIT,
+    QUIZ_SHOW_ANSWER,
+    TIMER_COUNT_DOWN,
+    RANDOM_QUESTIONS,
+} from '../constant/quizConstants'
 
 const initialState = {
+    randomQuestions: null,
     time: 10,
+    timerCountDown: 10,
     activeQuestion: 0,
-    activeQuestionShow: 0,
     answers: [],
     showAnswer: false,
     isFinished: false,
@@ -11,6 +20,13 @@ const initialState = {
 
 function quizReducers(state = initialState, action) {
     switch (action.type) {
+        case RANDOM_QUESTIONS: {
+            return {
+                ...state,
+                randomQuestions: action.payload.randomQuestions,
+            }
+        }
+
         case START_QUIZ: {
             return {
                 ...state,
@@ -18,12 +34,17 @@ function quizReducers(state = initialState, action) {
             }
         }
 
+        case TIMER_COUNT_DOWN: {
+            return {
+                ...state,
+                timerCountDown: action.payload.timer,
+            }
+        }
+
         case TIME_OUT: {
             return {
                 ...state,
-                time: 0,
-                showModal: true,
-                isFinished: true
+                isFinished: true,
             }
         }
 
@@ -31,7 +52,7 @@ function quizReducers(state = initialState, action) {
             return {
                 ...state,
                 activeQuestion: state.activeQuestion + 1,
-                answers: [...action.payload.answers]
+                answers: [...action.payload.answers],
             }
         }
 
@@ -40,12 +61,11 @@ function quizReducers(state = initialState, action) {
                 ...state,
                 answers: action.payload.answers,
                 time: action.payload.time,
-                isFinished: true
+                isFinished: true,
             }
         }
 
         case QUIZ_SHOW_ANSWER: {
-            console.log(state.answers)
             return {
                 ...state,
                 showAnswer: true,

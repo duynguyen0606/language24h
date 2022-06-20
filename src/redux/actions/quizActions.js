@@ -1,4 +1,21 @@
-import { START_QUIZ, TIME_OUT, QUIZ_NEXT, QUIZ_SUBMIT, QUIZ_SHOW_ANSWER } from '../constant/quizConstants'
+import {
+    START_QUIZ,
+    TIME_OUT,
+    QUIZ_NEXT,
+    QUIZ_SUBMIT,
+    QUIZ_SHOW_ANSWER,
+    TIMER_COUNT_DOWN,
+    RANDOM_QUESTIONS,
+} from '../constant/quizConstants'
+
+export const randomQuestionsAction = (randomQuestions) => {
+    return {
+        type: RANDOM_QUESTIONS,
+        payload: {
+            randomQuestions: randomQuestions,
+        },
+    }
+}
 
 export const startQuiz = (time) => {
     return {
@@ -37,6 +54,15 @@ export const quizSubmit = (answers, time, isFinished) => {
 
 export const quizShowAnswer = () => {
     return {
-        type: QUIZ_SHOW_ANSWER
+        type: QUIZ_SHOW_ANSWER,
+    }
+}
+
+export const quizCountDown = (timer) => {
+    return {
+        type: TIMER_COUNT_DOWN,
+        payload: {
+            timer: timer,
+        },
     }
 }

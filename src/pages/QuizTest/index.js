@@ -1,63 +1,55 @@
 import classNames from 'classnames/bind'
 import styles from './QuizTest.module.scss'
-import { Timer, QuestionBlock, QuizEnd } from './components'
-import { useState, useEffect } from 'react'
+import { Timer, QuestionBlock, QuizEnd, AnswerBlockShow } from './components'
 import { useDispatch, useSelector } from 'react-redux'
-import { timeOut } from '../../redux/actions/quizActions'
+import { useEffect } from 'react'
+import axios from 'axios'
+import randomData from '../../ultils/randomData'
+import { randomQuestionsAction } from '../../redux/actions/quizActions'
 
 const cx = classNames.bind(styles)
 
-let timerId
-
 function QuizTest() {
+    const isFinished = useSelector((state) => state.quizReducers.isFinished)
+    const showAnswer = useSelector((state) => state.quizReducers.showAnswer)
+    const randomQuestions = useSelector((state) => state.quizReducers.randomQuestions)
     const dispatch = useDispatch()
-    const { activeQuestion, time, answers, showModal, isFinished, showAnswer } = useSelector(
-        (state) => state.quizReducers,
-    )
-    const [timer, setTimer] = useState(time)
 
     useEffect(() => {
-        if (timer > 0) {
-            timerId = setTimeout(() => setTimer(timer - 1), 1000)
-        } else {
-            clearTimeout(timerId)
-            dispatch(timeOut())
-        }
-    }, [timer])
+        const url = 'http://localhost:5000/quiz-questions'
 
-    useEffect(() => {
-        if (isFinished) {
-            clearTimeout(timerId)
+        const getQuestions = async () => {
+            const data = (await axios.get(url)).data
+
+            const random = randomData(data)
+            dispatch(randomQuestionsAction(random))
         }
-    }, [isFinished])
+
+        getQuestions()
+    }, [dispatch])
 
     return (
         <div className={cx('wrapper')}>
             <div className='container'>
-                {isFinished ? (
-                    <QuizEnd />
+                {showAnswer ? (
+                    <>
+                        <div className={cx('title')}>
+                            <h2>Quiz test</h2>
+                        </div>
+                        <div className={cx('div-wrapper')}>
+                            <AnswerBlockShow questions={randomQuestions} />
+                        </div>
+                    </>
+                ) : isFinished ? (
+                    <QuizEnd questions={randomQuestions} />
                 ) : (
                     <>
                         <div className={cx('title')}>
                             <h2>Quiz test</h2>
                         </div>
-                        <div
-                            style={{
-                                backgroundColor: 'var(--white-color)',
-                                padding: '16px',
-                                minHeight: '320px',
-                                borderBottomLeftRadius: '10px',
-                                borderBottomRightRadius: '10px',
-                            }}
-                        >
-                            <Timer timer={timer} />
-                            <QuestionBlock
-                                activeQuestion={activeQuestion}
-                                time={time}
-                                answers={answers}
-                                showModal={showModal}
-                                timer={timer}
-                            />
+                        <div className={cx('div-wrapper')}>
+                            <Timer />
+                            <QuestionBlock questions={randomQuestions} />
                         </div>
                     </>
                 )}
