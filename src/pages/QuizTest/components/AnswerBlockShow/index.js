@@ -13,11 +13,9 @@ function AnswerBlock({ questions }) {
     const [currentAnswer, setCurrentAnswer] = useState(0)
     const [selected, setSelected] = useState('')
 
-    console.log(answers)
-
     useEffect(() => {
         setSelected(answers[currentAnswer] ? answers[currentAnswer].a : '')
-    }, [answers, currentAnswer])
+    }, [currentAnswer, answers])
 
     const handlePrevQuiz = () => {
         if (currentAnswer === 0) {

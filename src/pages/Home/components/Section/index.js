@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import ConvertToVND from '../../../../ultils/ConvertToVND'
 import { Link } from 'react-router-dom'
 import { Button, Spinner } from '../../../../components'
-import { getCoursesByCategoryId } from '../../../../redux/actions'
+import { getCoursesByCategoryId } from '../../categorySlice'
 import styles from './Section.module.scss'
 
 const cx = classNames.bind(styles)
@@ -28,7 +28,7 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
 
     useEffect(() => {
         const url = urlCourses
-        const getCategory = async (req, res) => {
+        const getCategory = async () => {
             const categoryItem = (await axios.get(url)).data
 
             setCategoryList(categoryItem)
@@ -41,10 +41,15 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
         const url = `${urlCourses}/?id=${tabActive}`
         setIsLoading(true)
 
-        const getCourses = async (req, res) => {
+        const getCourses = async () => {
             const courses = (await axios.get(url)).data
 
-            dispatch(getCoursesByCategoryId(tabActive, courses))
+            dispatch(
+                getCoursesByCategoryId({
+                    id: tabActive,
+                    coursesList: courses,
+                }),
+            )
         }
 
         setTimeout(() => {
@@ -55,7 +60,7 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
                 setIsLoading(false)
             }
         }, 2000)
-    }, [tabActive])
+    }, [tabActive, listIds, urlCourses, dispatch])
 
     const Item = styled(Paper)(({ theme }) => ({
         textAlign: 'left',

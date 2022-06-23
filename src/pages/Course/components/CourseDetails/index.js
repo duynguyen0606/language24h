@@ -6,16 +6,15 @@ import { Spinner } from '../../../../components'
 import { useState, useEffect } from 'react'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown'
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight'
-import { useDispatch } from 'react-redux'
-import { showChildCoursesById } from '../../../../redux/actions'
+import { useDispatch, useSelector } from 'react-redux'
+import { showChildCoursesById } from '../../courseSlice'
 
 const cx = classNames.bind(styles)
 
 function CourseDetails({ courseDetails }) {
+    const listIds = useSelector((state) => state.childCourses.listIds)
     const dispatch = useDispatch()
     const [loading, setLoading] = useState(true)
-    const [show, setShow] = useState(true)
-    const [id, setId] = useState(0)
 
     useEffect(() => {
         setTimeout(() => {
@@ -24,12 +23,11 @@ function CourseDetails({ courseDetails }) {
     }, [])
 
     const handleShowTopic = (e, id) => {
-        setId(id)
-        if (parseInt(e.currentTarget.id) === id) {
-            setShow((prev) => !prev)
-        }
-
-        dispatch(showChildCoursesById(id, show))
+        dispatch(
+            showChildCoursesById({
+                id: id,
+            }),
+        )
     }
 
     return (
@@ -70,7 +68,7 @@ function CourseDetails({ courseDetails }) {
                                                     id={course.id}
                                                     onClick={(e) => handleShowTopic(e, course.id)}
                                                 >
-                                                    {show ? (
+                                                    {listIds.includes(index) ? (
                                                         <KeyboardDoubleArrowDownIcon />
                                                     ) : (
                                                         <KeyboardDoubleArrowRightIcon />
@@ -91,7 +89,7 @@ function CourseDetails({ courseDetails }) {
                                             </div>
                                         </div>
 
-                                        {id === course.id ? (
+                                        {listIds.includes(index) ? (
                                             <div className={cx('children')}>
                                                 {course.childrenTopics &&
                                                     course.childrenTopics.map((childCourse, index) => (

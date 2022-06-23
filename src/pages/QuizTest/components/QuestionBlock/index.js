@@ -1,5 +1,5 @@
-import { useDispatch } from 'react-redux'
-import { quizNext, quizSubmit } from '../../../../redux/actions/quizActions'
+import { shallowEqual, useDispatch } from 'react-redux'
+import { quizNext, quizSubmit } from '../../quizTestSlice'
 import { useState } from 'react'
 import classNames from 'classnames/bind'
 import styles from './QuestionBlock.module.scss'
@@ -9,37 +9,38 @@ import Button from '../../../../components/Button'
 const cx = classNames.bind(styles)
 
 function QuestionBlock({ questions }) {
-    const { time, activeQuestion, answers, timerCountDown } = useSelector((state) => state.quizReducers)
+    const { time, activeQuestion, answers, timerCountDown } = useSelector((state) => state.quizReducers, shallowEqual)
     const dispatch = useDispatch()
     const [selected, setSelected] = useState('')
-
-    console.log(activeQuestion)
 
     const handleNextQuiz = () => {
         let ans = [...answers]
 
         ans[activeQuestion] = {
             q: questions[activeQuestion].question,
-            a: selected,
+            a: selected
         }
 
-        dispatch(quizNext(ans))
+        dispatch(
+            quizNext({
+                answers: ans
+            })
+        )
         setSelected('')
     }
 
     const handleSubmit = () => {
         dispatch(
-            quizSubmit(
-                [
+            quizSubmit({
+                answers: [
                     ...answers,
                     {
                         q: questions[activeQuestion].question,
-                        a: selected,
-                    },
+                        a: selected
+                    }
                 ],
-                time - timerCountDown,
-                true,
-            ),
+                time: time - timerCountDown
+            })
         )
     }
 

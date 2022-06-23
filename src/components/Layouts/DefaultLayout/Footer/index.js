@@ -15,7 +15,7 @@ function Footer() {
             <div className={cx('container')}>
                 <Box sx={{ flexGrow: 1 }}>
                     <Grid container spacing={2}>
-                        <Grid item xs={12} md={6} paddingBottom={6}>
+                        <Grid item xs={12} md={6} paddingBottom={4}>
                             <div className={cx('contact-panel')} style={{paddingLeft: '12px'}}>
                                 <div className={cx('contact-item')}>
                                     <img

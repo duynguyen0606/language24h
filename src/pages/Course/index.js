@@ -65,7 +65,7 @@ function Course() {
         padding: '15px',
         border: '1px solid #ddd',
         boxShadow: 'unset',
-        backgroundColor: 'white',
+        backgroundColor: 'white'
     }))
 
     return (

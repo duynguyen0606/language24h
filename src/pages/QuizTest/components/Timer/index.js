@@ -1,9 +1,9 @@
 import classNames from 'classnames/bind'
 import ConvertToMinutes from '../../../../ultils/ConvertToMinutes'
 import styles from './Timer.module.scss'
-import { useDispatch, useSelector } from 'react-redux'
+import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
-import { timeOut, quizCountDown } from '../../../../redux/actions/quizActions'
+import { timeOut, quizCountDown } from '../../quizTestSlice'
 
 const cx = classNames.bind(styles)
 
@@ -11,16 +11,16 @@ let timerId
 
 function Timer() {
     const dispatch = useDispatch()
-    const { timerCountDown } = useSelector((state) => state.quizReducers)
+    const { timerCountDown } = useSelector((state) => state.quizReducers, shallowEqual)
 
     useEffect(() => {
         if (timerCountDown > 0) {
-            setTimeout(() => dispatch(quizCountDown(timerCountDown - 1)), 1000)
+            timerId = setTimeout(() => dispatch(quizCountDown({ timerCountDown: timerCountDown - 1 })), 1000)
         } else {
             clearTimeout(timerId)
             dispatch(timeOut())
         }
-    }, [timerCountDown])
+    }, [timerCountDown, dispatch])
 
     return (
         <div className={cx('wrapper')}>

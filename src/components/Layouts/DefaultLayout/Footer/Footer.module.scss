@@ -3,7 +3,7 @@
     background-color: var(--footer-background-color);
     color: #ddd;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 
     .contact-panel {
         font-size: 1.4rem;
@@ -43,7 +43,6 @@
     }
 
     .policy {
-        
         .wrapper-item {
             display: flex;
             flex-direction: column;
@@ -52,8 +51,8 @@
         .stamp {
             .img-link {
                 .img {
-                    padding-top: 40px;
-                    width:200px;
+                    padding-top: 10px;
+                    width: 200px;
                 }
             }
         }

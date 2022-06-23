@@ -9,13 +9,15 @@ import { Spinner } from '../../../../components'
 const cx = classNames.bind(styles)
 
 function RelatedCourses() {
-    const [page, setPage] = useState(0)
+    const [page, setPage] = useState(1)
     const [relatedCourses, setRelatedCourses] = useState([])
     const [loading, setLoading] = useState(true)
 
     const handleLoadMore = () => {
-        setPage((page) => page + 1)
+        setPage(page + 1)
     }
+
+    console.log(page)
 
     useEffect(() => {
         setTimeout(() => {

@@ -3,7 +3,7 @@ import styles from './QuizEnd.module.scss'
 import { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import Button from '../../../../components/Button'
-import { quizShowAnswer } from '../../../../redux/actions/quizActions'
+import { quizShowAnswer } from '../../quizTestSlice'
 
 const cx = classNames.bind(styles)
 

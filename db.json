@@ -1300,76 +1300,79 @@
     "news-of-course": [
         {
             "id": 0,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
-            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?",
             "updated": 1565751752968
         },
         {
             "id": 1,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
-            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn.",
             "updated": 1565146479848
         },
         {
             "id": 2,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
-            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?",
             "updated": 1565751752968
         },
         {
             "id": 3,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
-            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn.",
             "updated": 1565146479848
-        },{
+        },
+        {
             "id": 4,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
-            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?",
             "updated": 1565751752968
         },
         {
             "id": 5,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
-            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn.",
             "updated": 1565146479848
         },
         {
             "id": 6,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
-            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?" ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/635974403-1565751548740-tuyen-dung-toeic.jpg",
+            "description": "Bạn cần mức điểm TOEIC bao nhiêu để vào các doanh nghiệp?",
             "updated": 1565751752968
         },
         {
             "id": 7,
-            "avatar":"https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
-            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn." ,
+            "avatar": "https://storage.googleapis.com/comaiphuong-edu-media/images/195901068-1565146324542-67645353_102888397732911_8914209514815750144_n.jpg",
+            "description": "Khai trương sự kiện Đấu trường từ vựng tiếng Anh tại web: ngoaingu24h.vn.",
             "updated": 1565146479848
         }
     ],
 
-    "quiz-questions": [{
-        "question": "Which of the following is the major element in earth crust?",
-        "choices": ["Silicon", "Oxygen", "Iron", "Aluminium"],
-        "answer": "Oxygen"
-      },
-      {
-        "question": "Which among the following country is known as “Land of White Elephant”?",
-        "choices": ["India", "Sri Lanka", "UAE", "Thailand"],
-        "answer": "Thailand"
-      },
-      {
-        "question": "What is the capital of Austria ?",
-        "choices": ["Graz", "Salzburg", "Innsbruck", "Vienna"],
-        "answer": "Vienna"
-      },
-      {
-        "question": "The term Ground Stroke is associated with which of the following games?",
-        "choices": ["Cricket", "Badminton", "Tennis", "Draughts"],
-        "answer": "Tennis"
-      },
-      {
-        "question": "What is the name of the biggest planet in our solar system ?",
-        "choices": ["Mars", "Jupiter", "Earth", "Mercury"],
-        "answer": "Jupiter"
-      }]
+    "quiz-questions": [
+        {
+            "question": "Which of the following is the major element in earth crust?",
+            "choices": ["Silicon", "Oxygen", "Iron", "Aluminium"],
+            "answer": "Oxygen"
+        },
+        {
+            "question": "Which among the following country is known as “Land of White Elephant”?",
+            "choices": ["India", "Sri Lanka", "UAE", "Thailand"],
+            "answer": "Thailand"
+        },
+        {
+            "question": "What is the capital of Austria ?",
+            "choices": ["Graz", "Salzburg", "Innsbruck", "Vienna"],
+            "answer": "Vienna"
+        },
+        {
+            "question": "The term Ground Stroke is associated with which of the following games?",
+            "choices": ["Cricket", "Badminton", "Tennis", "Draughts"],
+            "answer": "Tennis"
+        },
+        {
+            "question": "What is the name of the biggest planet in our solar system ?",
+            "choices": ["Mars", "Jupiter", "Earth", "Mercury"],
+            "answer": "Jupiter"
+        }
+    ]
 }

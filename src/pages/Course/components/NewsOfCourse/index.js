@@ -8,12 +8,9 @@ import { useState, useEffect } from 'react'
 const cx = classNames.bind(styles)
 
 function News() {
-    const [page, setPage] = useState(0)
+    const [page, setPage] = useState(1)
     const [newsOfCourse, setNewsOfCourse] = useState([])
 
-    const handleLoadMore = () => {
-        setPage((prev) => prev + 1)
-    }
     useEffect(() => {
         const url = `http://localhost:5000/news-of-course?_page=${page}&_limit=2`
 
@@ -25,6 +22,10 @@ function News() {
 
         getNews()
     }, [page])
+
+    const handleLoadMore = () => {
+        setPage(page + 1)
+    }
 
     return (
         <div className={cx('wrapper')}>

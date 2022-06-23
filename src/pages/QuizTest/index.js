@@ -4,8 +4,8 @@ import { Timer, QuestionBlock, QuizEnd, AnswerBlockShow } from './components'
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import axios from 'axios'
-import randomData from '../../ultils/randomData'
-import { randomQuestionsAction } from '../../redux/actions/quizActions'
+// import randomData from '../../ultils/randomData'
+import { randomQuestionsAction } from '../QuizTest/quizTestSlice'
 
 const cx = classNames.bind(styles)
 
@@ -21,8 +21,12 @@ function QuizTest() {
         const getQuestions = async () => {
             const data = (await axios.get(url)).data
 
-            const random = randomData(data)
-            dispatch(randomQuestionsAction(random))
+            // const random = randomData(data)
+            dispatch(
+                randomQuestionsAction({
+                    randomQuestions: data
+                })
+            )
         }
 
         getQuestions()

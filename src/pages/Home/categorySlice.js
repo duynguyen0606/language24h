@@ -1,33 +1,32 @@
-import { GET_COURSE } from '../constant/courseOfCategoryConstants'
+import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
     listIds: [],
     coursesList: [],
 }
 
-function categoryReducers(state = initialState, action) {
-    switch (action.type) {
-        case GET_COURSE: {
+const categorySlice = createSlice({
+    name: 'category',
+    initialState: initialState,
+    reducers: {
+        getCoursesByCategoryId(state, action) {
             if (state.listIds.includes(action.payload.id)) {
-                return {
-                    ...state,
-                }
+                return state
             } else {
                 const newListIds = [...state.listIds]
                 const newCoursesList = [...state.coursesList]
                 newListIds.push(action.payload.id)
                 newCoursesList[action.payload.id] = action.payload.coursesList
-
                 return {
                     ...state,
                     listIds: newListIds,
                     coursesList: newCoursesList,
                 }
             }
-        }
-        default:
-            return state
-    }
-}
+        },
+    },
+})
 
-export default categoryReducers
+const { reducer, actions } = categorySlice
+export const { getCoursesByCategoryId } = actions
+export default reducer
