@@ -13,6 +13,8 @@ function Timer() {
     const dispatch = useDispatch()
     const { timerCountDown } = useSelector((state) => state.quizReducers, shallowEqual)
 
+    console.log('timer')
+
     useEffect(() => {
         if (timerCountDown > 0) {
             timerId = setTimeout(() => dispatch(quizCountDown({ timerCountDown: timerCountDown - 1 })), 1000)

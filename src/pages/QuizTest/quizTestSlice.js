@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    randomQuestions: null,
+    questions: [],
     time: 100,
     timerCountDown: 100,
     activeQuestion: 0,
     answers: [],
     showAnswer: false,
-    isFinished: false,
+    isFinished: false
 }
 
 const quizTestSlice = createSlice({
@@ -15,7 +15,7 @@ const quizTestSlice = createSlice({
     initialState: initialState,
     reducers: {
         randomQuestionsAction: (state, action) => {
-            state.randomQuestions = action.payload.randomQuestions
+            state.questions = action.payload.questions
         },
 
         startQuiz: (state, action) => {
@@ -43,8 +43,8 @@ const quizTestSlice = createSlice({
 
         quizCountDown: (state, action) => {
             state.timerCountDown = action.payload.timerCountDown
-        },
-    },
+        }
+    }
 })
 
 const { actions, reducer } = quizTestSlice

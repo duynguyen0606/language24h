@@ -8,8 +8,11 @@ import Button from '../../../../components/Button'
 
 const cx = classNames.bind(styles)
 
-function QuestionBlock({ questions }) {
-    const { time, activeQuestion, answers, timerCountDown } = useSelector((state) => state.quizReducers, shallowEqual)
+function QuestionBlock() {
+    const { time, activeQuestion, answers, timerCountDown, questions } = useSelector(
+        (state) => state.quizReducers,
+        shallowEqual
+    )
     const dispatch = useDispatch()
     const [selected, setSelected] = useState('')
 
@@ -55,23 +58,27 @@ function QuestionBlock({ questions }) {
                         /<span style={{ fontStyle: 'italic' }}>{questions.length}</span>
                     </div>
                     <div className={cx('content')}>
-                        <div>{questions[activeQuestion].question}</div>
-                        <div className={cx('wrapper-answer')}>
-                            {questions[activeQuestion].choices.map((choice, i) => (
-                                <div key={i} className={cx('answer-item')}>
-                                    <label className={choice === selected ? cx('selected') : cx('text')}>
-                                        <input
-                                            type='radio'
-                                            name='answer'
-                                            value={choice}
-                                            onChange={(e) => setSelected(e.target.value)}
-                                            checked={choice === selected}
-                                        />
-                                        <span style={{ marginLeft: '4px' }}>{choice}</span>
-                                    </label>
+                        {questions[activeQuestion] && (
+                            <>
+                                <div>{questions[activeQuestion].question}</div>
+                                <div className={cx('wrapper-answer')}>
+                                    {questions[activeQuestion].choices.map((choice, i) => (
+                                        <div key={i} className={cx('answer-item')}>
+                                            <label className={choice === selected ? cx('selected') : cx('text')}>
+                                                <input
+                                                    type='radio'
+                                                    name='answer'
+                                                    value={choice}
+                                                    onChange={(e) => setSelected(e.target.value)}
+                                                    checked={choice === selected}
+                                                />
+                                                <span style={{ marginLeft: '4px' }}>{choice}</span>
+                                            </label>
+                                        </div>
+                                    ))}
                                 </div>
-                            ))}
-                        </div>
+                            </>
+                        )}
                     </div>
 
                     <div className={cx('footer')}>

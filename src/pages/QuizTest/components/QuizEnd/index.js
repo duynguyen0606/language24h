@@ -7,9 +7,9 @@ import { quizShowAnswer } from '../../quizTestSlice'
 
 const cx = classNames.bind(styles)
 
-function QuizEnd({ questions }) {
+function QuizEnd() {
     const dispatch = useDispatch()
-    const { answers, time } = useSelector((state) => state.quizReducers)
+    const { answers, time, questions } = useSelector((state) => state.quizReducers)
     const [correctAnswers, setCorrectAnswers] = useState(0)
 
     useEffect(() => {

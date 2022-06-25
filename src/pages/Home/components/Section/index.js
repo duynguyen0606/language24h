@@ -14,9 +14,11 @@ import styles from './Section.module.scss'
 
 const cx = classNames.bind(styles)
 
-function Section({ title, description, backgroundColor, urlCourses, ultils, footer }) {
-    const listIds = useSelector((state) => state.category.listIds)
-    const coursesOfCategoryId = useSelector((state) => state.category.coursesList)
+function Section({ title, description, backgroundColor, urlCourses, ultils, footer, sectionId }) {
+    const state = useSelector((state) => state.category[sectionId])
+    const listIds = state ? state.listIds : []
+    const coursesOfCategoryId = state ? state.coursesList : []
+
     const dispatch = useDispatch()
     const [tabActive, setTabActive] = useState(0)
     const [categoryList, setCategoryList] = useState([])
@@ -46,9 +48,10 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
 
             dispatch(
                 getCoursesByCategoryId({
+                    sectionId: sectionId,
                     id: tabActive,
-                    coursesList: courses,
-                }),
+                    coursesList: courses
+                })
             )
         }
 
@@ -59,13 +62,13 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
                 getCourses()
                 setIsLoading(false)
             }
-        }, 2000)
-    }, [tabActive, listIds, urlCourses, dispatch])
+        }, 1000)
+    }, [tabActive])
 
     const Item = styled(Paper)(({ theme }) => ({
         textAlign: 'left',
         boxShadow: 'unset',
-        backgroundColor: 'transparent',
+        backgroundColor: 'transparent'
     }))
 
     return (
@@ -122,7 +125,7 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
                                                                 borderRadius: '4px',
                                                                 boxShadow:
                                                                     '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
-                                                                backgroundColor: 'white',
+                                                                backgroundColor: 'white'
                                                             }}
                                                         >
                                                             <Link
@@ -175,8 +178,8 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
                                                                             'it-IT',
                                                                             {
                                                                                 style: 'currency',
-                                                                                currency: 'VND',
-                                                                            },
+                                                                                currency: 'VND'
+                                                                            }
                                                                         )}
                                                                     </div>
                                                                 </div>

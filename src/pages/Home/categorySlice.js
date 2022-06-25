@@ -1,30 +1,31 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const initialState = {
-    listIds: [],
-    coursesList: [],
-}
+const initialState = {}
 
 const categorySlice = createSlice({
     name: 'category',
     initialState: initialState,
     reducers: {
         getCoursesByCategoryId(state, action) {
-            if (state.listIds.includes(action.payload.id)) {
-                return state
+            const sectionId = action.payload.sectionId
+            const id = action.payload.id
+            const coursesList = action.payload.coursesList
+
+            if (state[sectionId]) {
+                if (state[sectionId].listIds.includes(id)) {
+                    return state
+                } else {
+                    state[sectionId].listIds.push(id)
+                    state[sectionId].coursesList[id] = coursesList
+                }
             } else {
-                const newListIds = [...state.listIds]
-                const newCoursesList = [...state.coursesList]
-                newListIds.push(action.payload.id)
-                newCoursesList[action.payload.id] = action.payload.coursesList
-                return {
-                    ...state,
-                    listIds: newListIds,
-                    coursesList: newCoursesList,
+                state[sectionId] = {
+                    listIds: [id],
+                    coursesList: [coursesList]
                 }
             }
-        },
-    },
+        }
+    }
 })
 
 const { reducer, actions } = categorySlice

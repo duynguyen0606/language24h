@@ -62,12 +62,14 @@ function Home() {
                 <OwlCarousel slides={slides} />
             </div>
             <Section
+                sectionId='courses-2022'
                 title='Các khóa luyện thi 2022'
                 description='Đa dạng các khoá học cho bạn lựa chọn. Giúp việc học trở nên dễ dàng hơn'
                 urlCourses='http://localhost:5000/courses-practice-2022'
                 footer
             />
             <Section
+                sectionId='courses-2023'
                 title='CÁC KHOÁ LUYỆN THI 2023'
                 description='COMBO luyện thi (THPT, ĐG năng lực, ĐG tư duy) năm 2023'
                 urlCourses='http://localhost:5000/courses-practice-2023'
@@ -81,13 +83,14 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <Section
+            {/* <Section
+                sectionId='ultilties-online'
                 title='CÁC TIỆN ÍCH HỌC ONLINE'
                 description='Chỉ là cách học đơn giản và vui vẻ nhất mà bạn từng biết đến thôi mà, cùng điểm qua có gì hot nhé!'
                 ultils={ultils}
                 footer={false}
                 backgroundColor='#f8f9fe'
-            />
+            /> */}
         </>
     )
 }

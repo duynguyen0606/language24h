@@ -12,7 +12,6 @@ const cx = classNames.bind(styles)
 function QuizTest() {
     const isFinished = useSelector((state) => state.quizReducers.isFinished)
     const showAnswer = useSelector((state) => state.quizReducers.showAnswer)
-    const randomQuestions = useSelector((state) => state.quizReducers.randomQuestions)
     const dispatch = useDispatch()
 
     useEffect(() => {
@@ -24,7 +23,7 @@ function QuizTest() {
             // const random = randomData(data)
             dispatch(
                 randomQuestionsAction({
-                    randomQuestions: data
+                    questions: data
                 })
             )
         }
@@ -41,11 +40,11 @@ function QuizTest() {
                             <h2>Quiz test</h2>
                         </div>
                         <div className={cx('div-wrapper')}>
-                            <AnswerBlockShow questions={randomQuestions} />
+                            <AnswerBlockShow />
                         </div>
                     </>
                 ) : isFinished ? (
-                    <QuizEnd questions={randomQuestions} />
+                    <QuizEnd />
                 ) : (
                     <>
                         <div className={cx('title')}>
@@ -53,7 +52,7 @@ function QuizTest() {
                         </div>
                         <div className={cx('div-wrapper')}>
                             <Timer />
-                            <QuestionBlock questions={randomQuestions} />
+                            <QuestionBlock />
                         </div>
                     </>
                 )}

@@ -17,8 +17,6 @@ function RelatedCourses() {
         setPage(page + 1)
     }
 
-    console.log(page)
-
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)

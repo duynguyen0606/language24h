@@ -8,8 +8,9 @@ import CloseIcon from '@mui/icons-material/Close'
 
 const cx = classNames.bind(styles)
 
-function AnswerBlock({ questions }) {
+function AnswerBlock() {
     const answers = useSelector((state) => state.quizReducers.answers)
+    const questions = useSelector((state) => state.quizReducers.questions)
     const [currentAnswer, setCurrentAnswer] = useState(0)
     const [selected, setSelected] = useState('')
 
