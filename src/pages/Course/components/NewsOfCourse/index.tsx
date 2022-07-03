@@ -7,14 +7,21 @@ import { useState, useEffect } from 'react'
 
 const cx = classNames.bind(styles)
 
+interface News {
+    id: number
+    avatar: string
+    description: string
+    updated: number
+}
+
 function News() {
     const [page, setPage] = useState(1)
-    const [newsOfCourse, setNewsOfCourse] = useState([])
+    const [newsOfCourse, setNewsOfCourse] = useState<[] | News[]>([])
 
     useEffect(() => {
         const url = `http://localhost:5000/news-of-course?_page=${page}&_limit=2`
 
-        const getNews = async (req, res) => {
+        const getNews = async () => {
             const news = (await axios.get(url)).data
 
             setNewsOfCourse((prev) => [...prev, ...news])
@@ -33,16 +40,16 @@ function News() {
             <div className={cx('show-list-news')}>
                 <div>
                     {newsOfCourse &&
-                        newsOfCourse.map((course, index) => (
+                        newsOfCourse.map((news: News, index) => (
                             <div key={index} style={{ marginBottom: '15px' }}>
                                 <Link to='/' className={cx('news-item')}>
-                                    <img src={course.avatar} alt='img' />
+                                    <img src={news.avatar} alt='img' />
                                     <div>
                                         <div className={cx('name')}>
-                                            <span>{course.description}</span>
+                                            <span>{news.description}</span>
                                         </div>
                                         <div className={cx('updated')}>
-                                            <span>Cập nhật {ConvertToTimestamp(course.updated)}</span>
+                                            <span>Cập nhật {ConvertToTimestamp(news.updated)}</span>
                                         </div>
                                     </div>
                                 </Link>

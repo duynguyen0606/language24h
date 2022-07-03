@@ -5,12 +5,22 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import ConvertToVND from '../../../../ultils/ConvertToVND'
 import { Spinner } from '../../../../components'
+import React, { ReactNode } from 'react'
 
 const cx = classNames.bind(styles)
 
+interface RelatedCourse {
+    id: number
+    name: string
+    avatar: string
+    price: number
+    rateValue: number
+    rateCount: number
+}
+
 function RelatedCourses() {
     const [page, setPage] = useState(1)
-    const [relatedCourses, setRelatedCourses] = useState([])
+    const [relatedCourses, setRelatedCourses] = useState<[] | RelatedCourse[]>([])
     const [loading, setLoading] = useState(true)
 
     const handleLoadMore = () => {
@@ -26,7 +36,7 @@ function RelatedCourses() {
     useEffect(() => {
         const url = `http://localhost:5000/related-courses?_page=${page}&_limit=2`
 
-        const getRelatedCourses = async (req, res) => {
+        const getRelatedCourses = async () => {
             const relatedCourses = (await axios.get(url)).data
 
             setRelatedCourses((prev) => [...prev, ...relatedCourses])
@@ -45,7 +55,7 @@ function RelatedCourses() {
                     <div className={cx('show-related')}>
                         <div>
                             {relatedCourses &&
-                                relatedCourses.map((course, index) => (
+                                relatedCourses.map((course: RelatedCourse, index) => (
                                     <div key={index}>
                                         <Link className={cx('item')} to='/'>
                                             <img src={course.avatar} alt='img' />

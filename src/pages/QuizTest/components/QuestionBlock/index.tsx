@@ -5,12 +5,13 @@ import classNames from 'classnames/bind'
 import styles from './QuestionBlock.module.scss'
 import { useSelector } from 'react-redux'
 import Button from '../../../../components/Button'
+import { RootState } from '../../../../redux/store'
 
 const cx = classNames.bind(styles)
 
 function QuestionBlock() {
     const { time, activeQuestion, answers, timerCountDown, questions } = useSelector(
-        (state) => state.quizReducers,
+        (state: RootState) => state.quizReducers,
         shallowEqual
     )
     const dispatch = useDispatch()

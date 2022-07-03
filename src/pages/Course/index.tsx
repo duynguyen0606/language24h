@@ -8,16 +8,68 @@ import axios from 'axios'
 import { Grid, Paper } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import { Button } from '../../components'
+import React from 'react'
 
 const cx = classNames.bind(styles)
+
+export interface Activity {
+    id: number
+    content: string
+    startDate: number
+    userId: string
+    userName: string
+}
+
+export interface CourseInfor {
+    id: number
+    rate: number
+    rateTotal: number
+    numberStudents: number
+    structure: {
+        chuyenDe: number
+        baiGiang: number
+        baiThiOnline: number
+        thoiGian: number
+    }
+    cost: number
+}
+
+export interface ICourseDetails {
+    id: number
+    name: string
+    description: string
+    progress: null | string
+    childrenTopics: {
+        id: number
+        name: string
+        questionsNumber: number
+        progress: null | string
+    }[]
+}
+
+const initCourseDetail = {
+    id: 1,
+    rate: 1,
+    rateTotal: 1,
+    numberStudents: 1,
+    structure: {
+        chuyenDe: 1,
+        baiGiang: 1,
+        baiThiOnline: 1,
+        thoiGian: 1
+    },
+    cost: 1
+}
 
 function Course() {
     const { courseId } = useParams()
     const [avatar, setAvatar] = useState('')
     const [name, setName] = useState('')
     const [courseDetails, setCourseDetails] = useState([])
-    const [courseInfor, setCourseInfor] = useState({})
+    const [courseInfor, setCourseInfor] = useState<CourseInfor>(initCourseDetail)
     const [activitiesRecently, setActivitiesRecently] = useState([])
+
+    console.log(activitiesRecently)
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -26,7 +78,7 @@ function Course() {
     useEffect(() => {
         const url = `http://localhost:5000/course-child-topics?id=${courseId}`
 
-        const getCourse = async (req, res) => {
+        const getCourse = async () => {
             const course = (await axios.get(url)).data[0]
 
             setCourseDetails(course.coursesChildren)
@@ -39,7 +91,7 @@ function Course() {
     useEffect(() => {
         const url = `http://localhost:5000/overview-courses?id=${courseId}`
 
-        const getCourseInfor = async (req, res) => {
+        const getCourseInfor = async () => {
             const infor = (await axios.get(url)).data[0]
 
             setCourseInfor(infor)
@@ -51,7 +103,7 @@ function Course() {
     useEffect(() => {
         const url = `http://localhost:5000/activities-recently`
 
-        const getActivities = async (req, res) => {
+        const getActivities = async () => {
             const activities = (await axios.get(url)).data
 
             setActivitiesRecently(activities)
@@ -60,7 +112,7 @@ function Course() {
         getActivities()
     }, [courseId])
 
-    const Item = styled(Paper)(({ theme }) => ({
+    const Item = styled(Paper)(() => ({
         borderRadius: 'unset',
         padding: '15px',
         border: '1px solid #ddd',

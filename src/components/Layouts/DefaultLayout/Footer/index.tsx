@@ -70,25 +70,25 @@ function Footer() {
                                 <div className={cx('policy')}>
                                     <p style={{paddingLeft: '12px'}}>CÁC CHÍNH SÁCH</p>
                                     <div className={cx('wrapper-item')}>
-                                        <Button fontSize={1.4} textAlignLeft text to='/chinh-sach-chung'>
+                                        <Button fontSize='1.4' textAlignLeft text to='/chinh-sach-chung'>
                                             Chính sách chung
                                         </Button>
-                                        <Button fontSize={1.4} marginLeft={0} textAlignLeft text to='/chinh-sach-bao-mat-thong-tin'>
+                                        <Button fontSize='1.4' marginLeft={0} textAlignLeft text to='/chinh-sach-bao-mat-thong-tin'>
                                             Chính sách bảo mật thông tin
                                         </Button>
-                                        <Button fontSize={1.4} marginLeft={0} textAlignLeft text to='/tin-tuc/huong-dan-mua-hang'>
+                                        <Button fontSize='1.4' marginLeft={0} textAlignLeft text to='/tin-tuc/huong-dan-mua-hang'>
                                             Hướng dẫn mua hàng
                                         </Button>
-                                        <Button fontSize={1.4} marginLeft={0} textAlignLeft text to='/tin-tuc/huong-dan-kich-hoat-khoa-hoc'>
+                                        <Button fontSize='1.4' marginLeft={0} textAlignLeft text to='/tin-tuc/huong-dan-kich-hoat-khoa-hoc'>
                                             Hướng dẫn kích hoạt khóa học
                                         </Button>
-                                        <Button fontSize={1.4} marginLeft={0} textAlignLeft text to='/tin-tuc/chinh-sach-hoan-tra-hoc-phi'>
+                                        <Button fontSize='1.4' marginLeft={0} textAlignLeft text to='/tin-tuc/chinh-sach-hoan-tra-hoc-phi'>
                                             Chính sách hoàn trả học phí
                                         </Button>
                                     </div>
 
                                     <div className={cx('stamp')}>
-                                        <Button className={cx('img-link')} to>
+                                        <Button className={cx('img-link')} to='/'>
                                             <img
                                                 className={cx('img')}
                                                 alt="img"

@@ -1,6 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const initialState = {
+interface InitialState {
+    listIds: number[]
+}
+
+const initialState: InitialState = {
     listIds: [],
 }
 

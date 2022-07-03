@@ -1,6 +1,6 @@
 import moment from 'moment'
 
-function ConvertToMinutes(number) {
+function ConvertToMinutes(number: number) {
     return moment.utc(number * 1000).format('mm:ss')
 }
 

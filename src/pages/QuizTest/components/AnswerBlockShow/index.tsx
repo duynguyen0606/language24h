@@ -5,12 +5,13 @@ import styles from './AnswerBlockShow.module.scss'
 import Button from '../../../../components/Button'
 import CheckIcon from '@mui/icons-material/Check'
 import CloseIcon from '@mui/icons-material/Close'
+import { RootState } from '../../../../redux/store'
 
 const cx = classNames.bind(styles)
 
 function AnswerBlock() {
-    const answers = useSelector((state) => state.quizReducers.answers)
-    const questions = useSelector((state) => state.quizReducers.questions)
+    const answers = useSelector((state: RootState) => state.quizReducers.answers)
+    const questions = useSelector((state: RootState) => state.quizReducers.questions)
     const [currentAnswer, setCurrentAnswer] = useState(0)
     const [selected, setSelected] = useState('')
 

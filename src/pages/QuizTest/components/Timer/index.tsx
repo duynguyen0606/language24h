@@ -4,14 +4,15 @@ import styles from './Timer.module.scss'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { timeOut, quizCountDown } from '../../quizTestSlice'
+import { RootState } from '../../../../redux/store'
 
 const cx = classNames.bind(styles)
 
-let timerId
+let timerId: NodeJS.Timeout | undefined
 
 function Timer() {
     const dispatch = useDispatch()
-    const { timerCountDown } = useSelector((state) => state.quizReducers, shallowEqual)
+    const { timerCountDown } = useSelector((state: RootState) => state.quizReducers, shallowEqual)
 
     console.log('timer')
 

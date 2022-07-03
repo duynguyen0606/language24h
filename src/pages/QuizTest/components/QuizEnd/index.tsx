@@ -4,12 +4,13 @@ import { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import Button from '../../../../components/Button'
 import { quizShowAnswer } from '../../quizTestSlice'
+import { RootState } from '../../../../redux/store'
 
 const cx = classNames.bind(styles)
 
 function QuizEnd() {
     const dispatch = useDispatch()
-    const { answers, time, questions } = useSelector((state) => state.quizReducers)
+    const { answers, time, questions } = useSelector((state: RootState) => state.quizReducers)
     const [correctAnswers, setCorrectAnswers] = useState(0)
 
     useEffect(() => {

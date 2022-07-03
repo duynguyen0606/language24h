@@ -3,11 +3,11 @@ import { Button, Spinner } from '../../../../components'
 import styles from './CourseOverview.module.scss'
 import ConvertToVND from '../../../../ultils/ConvertToVND'
 import { useState, useEffect } from 'react'
+import { CourseInfor } from '../../index'
 
 const cx = classNames.bind(styles)
-
-function CourseOverview({ courseInfor }) {
-    const [loading, setLoading] = useState(true)
+function CourseOverview({ courseInfor }: { courseInfor: CourseInfor }) {
+    const [loading, setLoading] = useState<boolean>(true)
 
     useEffect(() => {
         setTimeout(() => {

@@ -1,6 +1,23 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const initialState = {
+interface InitialState {
+    questions: {
+        question: string
+        choices: string[]
+        answer: string
+    }[]
+    time: number
+    timerCountDown: number
+    activeQuestion: number
+    answers: {
+        q: string
+        a: string
+    }[]
+    showAnswer: boolean
+    isFinished: boolean
+}
+
+const initialState: InitialState = {
     questions: [],
     time: 100,
     timerCountDown: 100,

@@ -5,13 +5,14 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import axios from 'axios'
 // import randomData from '../../ultils/randomData'
-import { randomQuestionsAction } from '../QuizTest/quizTestSlice'
+import { randomQuestionsAction } from './quizTestSlice'
+import { RootState } from '../../redux/store'
 
 const cx = classNames.bind(styles)
 
 function QuizTest() {
-    const isFinished = useSelector((state) => state.quizReducers.isFinished)
-    const showAnswer = useSelector((state) => state.quizReducers.showAnswer)
+    const isFinished = useSelector((state: RootState) => state.quizReducers.isFinished)
+    const showAnswer = useSelector((state: RootState) => state.quizReducers.showAnswer)
     const dispatch = useDispatch()
 
     useEffect(() => {

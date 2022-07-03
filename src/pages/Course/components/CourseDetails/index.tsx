@@ -8,13 +8,15 @@ import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrow
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight'
 import { useDispatch, useSelector } from 'react-redux'
 import { showChildCoursesById } from '../../courseSlice'
+import { RootState } from '../../../../redux/store'
+import { ICourseDetails } from '../../index'
 
 const cx = classNames.bind(styles)
 
-function CourseDetails({ courseDetails }) {
-    const listIds = useSelector((state) => state.childCourses.listIds)
+function CourseDetails({ courseDetails }: { courseDetails: ICourseDetails[] }) {
+    const listIds = useSelector((state: RootState) => state.childCourses.listIds)
     const dispatch = useDispatch()
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState<boolean>(true)
 
     useEffect(() => {
         setTimeout(() => {
@@ -22,11 +24,11 @@ function CourseDetails({ courseDetails }) {
         }, 2000)
     }, [])
 
-    const handleShowTopic = (e, id) => {
+    const handleShowTopic = (id: number) => {
         dispatch(
             showChildCoursesById({
-                id: id,
-            }),
+                id: id
+            })
         )
     }
 
@@ -49,7 +51,7 @@ function CourseDetails({ courseDetails }) {
                                 </div>
                             </div>
                         </div>
-                        {courseDetails.map((course, index) => (
+                        {courseDetails.map((course: ICourseDetails, index: number) => (
                             <div key={index} className={cx('item-panel')}>
                                 <div style={{ width: '25px' }}></div>
                                 <div className={cx('topic-item')}>
@@ -65,8 +67,8 @@ function CourseDetails({ courseDetails }) {
                                             {course.childrenTopics && (
                                                 <div
                                                     className={cx('topic-show-btn')}
-                                                    id={course.id}
-                                                    onClick={(e) => handleShowTopic(e, course.id)}
+                                                    id={course.id.toString()}
+                                                    onClick={(e) => handleShowTopic(course.id)}
                                                 >
                                                     {listIds.includes(index) ? (
                                                         <KeyboardDoubleArrowDownIcon />
@@ -114,7 +116,7 @@ function CourseDetails({ courseDetails }) {
                                                                             className={cx('box-content')}
                                                                             style={{
                                                                                 boxShadow: 'unset',
-                                                                                border: 'none',
+                                                                                border: 'none'
                                                                             }}
                                                                         >
                                                                             <div

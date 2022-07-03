@@ -1,11 +1,11 @@
 import classNames from 'classnames/bind'
 import styles from './BannerContent.module.scss'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight'
-import { Button } from './../../../../components'
+import { Button } from '../../../../components'
 
 const cx = classNames.bind(styles)
 
-function BannerContent({ avatar, name }) {
+function BannerContent({ avatar, name }: { avatar: string; name: string }) {
     return (
         <>
             <div className={cx('wrapper')}>
@@ -19,7 +19,7 @@ function BannerContent({ avatar, name }) {
                         zIndex: 1,
                         background: `url("${avatar}") center center / 100% no-repeat`,
                         filter: 'brightness(0.6)',
-                        opacity: '0.8',
+                        opacity: '0.8'
                     }}
                 ></div>
                 <div className={cx('name')}>{name}</div>
