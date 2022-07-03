@@ -66,7 +66,7 @@ function Course() {
     const [avatar, setAvatar] = useState('')
     const [name, setName] = useState('')
     const [courseDetails, setCourseDetails] = useState([])
-    const [courseInfor, setCourseInfor] = useState<CourseInfor>(initCourseDetail)
+    const [courseInfor, setCourseInfor] = useState<CourseInfor | null>(null)
     const [activitiesRecently, setActivitiesRecently] = useState([])
 
     console.log(activitiesRecently)

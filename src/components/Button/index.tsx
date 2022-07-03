@@ -63,7 +63,7 @@ const Button: React.FC<Props> = ({
     stylesCustom,
     ...passProps
 }) => {
-    let Comp: ForwardRefExoticComponent<LinkProps & RefAttributes<HTMLAnchorElement>| Props> | string = 'button'
+    let Comp: any = 'button'
 
     const classes = cx('wrapper', {
         primary,
