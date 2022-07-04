@@ -26,8 +26,6 @@ function Home() {
         }
 
         getSlides()
-            .then(console.log('Get slides success!'))
-            .catch((err) => console.log(err))
     }, [])
 
     useEffect(() => {
@@ -39,8 +37,6 @@ function Home() {
         }
 
         getScoreSlides()
-            .then(console.log('get score slides success!'))
-            .catch((err) => console.log(err))
     }, [])
 
     useEffect(() => {
@@ -52,8 +48,6 @@ function Home() {
         }
 
         getUltils()
-            .then(console.log('get ultils slides success!'))
-            .catch((err) => console.log(err))
     }, [])
 
     return (
@@ -83,14 +77,14 @@ function Home() {
                     </div>
                 </div>
             </div>
-            {/* <Section
+            <Section
                 sectionId='ultilties-online'
                 title='CÁC TIỆN ÍCH HỌC ONLINE'
                 description='Chỉ là cách học đơn giản và vui vẻ nhất mà bạn từng biết đến thôi mà, cùng điểm qua có gì hot nhé!'
                 ultils={ultils}
                 footer={false}
                 backgroundColor='#f8f9fe'
-            /> */}
+            />
         </>
     )
 }

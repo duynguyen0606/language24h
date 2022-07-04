@@ -8,7 +8,6 @@ import axios from 'axios'
 import { Grid, Paper } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import { Button } from '../../components'
-import React from 'react'
 
 const cx = classNames.bind(styles)
 
@@ -45,20 +44,6 @@ export interface ICourseDetails {
         questionsNumber: number
         progress: null | string
     }[]
-}
-
-const initCourseDetail = {
-    id: 1,
-    rate: 1,
-    rateTotal: 1,
-    numberStudents: 1,
-    structure: {
-        chuyenDe: 1,
-        baiGiang: 1,
-        baiThiOnline: 1,
-        thoiGian: 1
-    },
-    cost: 1
 }
 
 function Course() {

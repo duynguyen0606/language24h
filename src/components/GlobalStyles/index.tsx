@@ -5,7 +5,7 @@ interface Props {
     children: React.ReactElement
 }
 
-const GlobalStyles = ({children}: Props) => {
+const GlobalStyles = ({ children }: Props) => {
     return children
 }
 

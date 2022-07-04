@@ -4,7 +4,6 @@ import styles from './Button.module.scss'
 import React, { ForwardRefExoticComponent, RefAttributes } from 'react'
 
 const cx = classNames.bind(styles)
-
 interface Props {
     className?: string
     children: React.ReactNode
@@ -37,7 +36,7 @@ interface Props {
     }
 }
 
-const Button: React.FC<Props> = ({
+const Button = ({
     children,
     to,
     href,
@@ -62,7 +61,7 @@ const Button: React.FC<Props> = ({
     minWidth,
     stylesCustom,
     ...passProps
-}) => {
+}: Props) => {
     let Comp: any = 'button'
 
     const classes = cx('wrapper', {

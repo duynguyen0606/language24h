@@ -6,7 +6,6 @@ import GlobalStyles from './components/GlobalStyles'
 import { Provider } from 'react-redux'
 import store, { persistor } from './redux/store'
 import { PersistGate } from 'redux-persist/integration/react'
-import { ReportHandler } from 'web-vitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(

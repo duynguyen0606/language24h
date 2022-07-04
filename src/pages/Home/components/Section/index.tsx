@@ -3,7 +3,6 @@ import Paper from '@mui/material/Paper'
 import { styled } from '@mui/material/styles'
 import axios from 'axios'
 import classNames from 'classnames/bind'
-import * as React from 'react'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import ConvertToVND from '../../../../ultils/ConvertToVND'
@@ -18,14 +17,14 @@ const cx = classNames.bind(styles)
 interface Props {
     title: string
     description: string
-    backgroundColor: string
-    urlCourses: string
-    ultils: {
+    backgroundColor?: string
+    urlCourses?: string
+    ultils?: {
         id: number
         img: string
         description: string
     }[]
-    footer: boolean
+    footer?: boolean
     sectionId: string
 }
 
@@ -65,13 +64,15 @@ function Section({ title, description, backgroundColor, urlCourses, ultils, foot
 
     useEffect(() => {
         const url = urlCourses
-        const getCategory: () => Promise<void> = async () => {
-            const categoryItem = (await axios.get(url)).data
+        if (url) {
+            const getCategory: () => Promise<void> = async () => {
+                const categoryItem = (await axios.get(url)).data
 
-            setCategoryList(categoryItem)
+                setCategoryList(categoryItem)
+            }
+
+            getCategory()
         }
-
-        getCategory()
     }, [urlCourses])
 
     useEffect(() => {

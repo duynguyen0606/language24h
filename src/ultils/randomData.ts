@@ -1,4 +1,4 @@
-function randomData(data) {
+function randomData(data: any[]) {
     return data
         .sort(() => 0.5 - Math.random())
         .map((item) => {
